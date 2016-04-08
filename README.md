@@ -19,8 +19,10 @@ iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for 
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 gcc | build-essential | 4 | | more testing needed
 mtr | | 0 | | doesn't run
-docker | | 0 | | doesn't run
+docker | | 0 | | doesn't run / says not installed
 npm | | 4 | | some packages fail due to permissions
 ssh | | 4 | | ssh -i works
+lynx | | 5 | | seems to work entirely
+vsftpd | | 3 | ? | Not installed with apt
 
 
