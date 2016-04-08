@@ -23,6 +23,7 @@ docker | | 0 | | doesn't run / says not installed
 npm | | 4 | | some packages fail due to permissions
 ssh | | 4 | | ssh -i works
 lynx | | 5 | | seems to work entirely
+vim | | 4 | | Will open and edit Window files it cannot create new files
 vsftpd | | 3 | ? | Not installed with apt
 
 
