@@ -25,5 +25,5 @@ ssh | | 4 | | ssh -i works
 lynx | | 5 | | seems to work entirely
 vim | | 3 | | Will open and edit Window files it cannot create new files
 vsftpd | | 3 | ? | Not installed with apt
-
+ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
 
