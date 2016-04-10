@@ -23,7 +23,7 @@ docker | | 0 | | doesn't run / says not installed
 npm | | 4 | | some packages fail due to permissions
 ssh | | 4 | | ssh -i works
 lynx | | 5 | | seems to work entirely
-vim | | 3 | | Will open and edit Window files it cannot create new files
+vim | | 3 | | Will open and edit Window files it cannot create new files. Issues with colorschemes.
 vsftpd | | 3 | ? | Not installed with apt
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
 
