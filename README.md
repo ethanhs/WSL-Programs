@@ -28,4 +28,6 @@ vsftpd | | 3 | ? | Not installed with apt
 swift | | 3 | ? | Everything except interactive shell works
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
+java | | 0 | | does not install
+nuget | | 3 | | requires more testing
 
