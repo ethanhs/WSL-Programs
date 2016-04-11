@@ -30,4 +30,8 @@ ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
 java | | 0 | | does not install
 nuget | | 3 | | requires more testing
-
+git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit)
+ssh-keygen | ssh | 4 | | -t rsa working
+make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
+curl | | 4 | | curl -sS tested
+php5-cli | | 4 | Working, needs more testing
