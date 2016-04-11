@@ -34,4 +34,5 @@ git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commi
 ssh-keygen | ssh | 4 | | -t rsa working
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
 curl | | 4 | | curl -sS tested
-php5-cli | | 4 | Working, needs more testing
+php5-cli | | 4 | | Working, needs more testing
+nasm | | 4 | | more testing needed
