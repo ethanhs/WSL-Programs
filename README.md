@@ -38,7 +38,7 @@ swift | | 3 | ? | Everything except interactive shell works
 tmux | | 0| | No server starts but it installs
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
-vim | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. 
+vim | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
 vsftpd | | 3 | ? | Not installed with apt
 xorg | | 4 | | Requires Configuration and an X server on Windows
-zsh | | 1 | | Installs andseems to switch shells but has no functionality
+zsh | | 1 | | Installs and seems to switch shells but has no functionality
