@@ -11,8 +11,9 @@ Then add your program below!
 
 Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes
 ------------- | --------------------------------------- | -------------------------- | --------------------- | ------------------
+Anaconda || 0 | [Continuum.io](https://www.continuum.io/downloads) | Will not install. Fails at symbolic links.
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
-bash | | 4 | | PS prompt works and most functionality seems to exists. Keyboard shortcuts don't work
+bash | | 3 | | PS prompt works and most functionality seems to exists. Keyboard shortcuts don't work. Backspace doesn't work when in scripts, returns char `^(unknown unicode value that can't be copied)` (has box with a question mark inside)
 curl | | 4 | | curl -sS tested
 docker | | 0 | | doesn't run / says not installed
 gcc | build-essential | 4 | | more testing needed
@@ -30,10 +31,12 @@ nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" 
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
+pip | | 0 | | **DO NOT INSTAL** Need to run `--fix-missing` when trying to install. Still fails. `pip` runs but won't install modules. Packages are missing and won't remove. You will error if running apt-get upgrade.
 php5-cli | | 4 | | Working, needs more testing
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
 ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
+sudo | | 5 | | appears to be working as expected
 swift | | 3 | ? | Everything except interactive shell works	
 tmux | | 0| | No server starts but it installs
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
@@ -42,3 +45,14 @@ vim | | 3 | | Will open and edit Window files it cannot create new files. Can cr
 vsftpd | | 3 | ? | Not installed with apt
 xorg | | 4 | | Requires Configuration and an X server on Windows
 zsh | | 1 | | Installs and seems to switch shells but has no functionality
+
+## pip/apt error
+When running `apt-get upgrade` after we will get the error 
+`
+Errors were encountered while processing:
+ udev
+ systemd-services
+ libpam-systemd:amd64
+ initramfs-tools
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+`
