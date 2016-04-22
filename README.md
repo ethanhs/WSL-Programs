@@ -44,5 +44,6 @@ useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc fil
 usermod | | 5 | | Seems to work correctly
 vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
 vsftpd | | 3 | ? | Not installed with apt
+wget | | 3 | | Simple commands work. Have only run basic commands
 xorg | | 4 | | Requires Configuration and an X server on Windows
-zsh | | 1 | | Installs and seems to switch shells but has no functionality
+zsh | | 0 | | Installs and seems to switch shells but has no functionality
