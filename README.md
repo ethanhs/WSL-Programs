@@ -13,6 +13,7 @@ Program Name  | apt name if different (blank otherwise) | Functionality rating (
 ------------- | --------------------------------------- | -------------------------- | --------------------- | ------------------
 Anaconda || 0 | [Continuum.io](https://www.continuum.io/downloads) | Will not install. Fails at symbolic links.
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
+apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
 bash | | 3 | | PS prompt works and most functionality seems to exists. Keyboard shortcuts don't work. Backspace doesn't work when in scripts, returns char `^(unknown unicode value that can't be copied)` (has box with a question mark inside)
 curl | | 4 | | curl -sS tested
 docker | | 0 | | doesn't run / says not installed
@@ -56,3 +57,5 @@ Errors were encountered while processing:
  initramfs-tools
 E: Sub-process /usr/bin/dpkg returned an error code (1)
 `
+## Quirks
+When resizing windows we get rendering problems. For example with `man` if we scroll down we can only scroll up partially until only the top line refreshes. When returning to scroll down after new lines render correctly and the whole screen updates.
