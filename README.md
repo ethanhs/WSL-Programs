@@ -7,6 +7,8 @@ To contribute, please make a Pull Request, I will merge if it looks good! If you
 
 Then add your program below!
 
+If you need to add more details about a program then add a `+` symbol to its name and add it to the `Program_Details.md` file.
+
 #The list:
 
 Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes
