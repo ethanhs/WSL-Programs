@@ -7,12 +7,16 @@ To contribute, please make a Pull Request, I will merge if it looks good! If you
 
 Then add your program below!
 
+If you need to add more details about a program then add a `+` symbol to its name and add it to the `Program_Details.md` file.
+
 #The list:
 
 Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes
 ------------- | --------------------------------------- | -------------------------- | --------------------- | ------------------
+Anaconda || 0 | [Continuum.io](https://www.continuum.io/downloads) | Will not install. Fails at symbolic links.
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
-bash | | 4 | | PS prompt works and most functionality seems to exists. Keyboard shortcuts don't work
+apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
+bash+ | | 3 | | Most functionality exists but there are problems with scripts
 curl | | 4 | | curl -sS tested
 docker | | 0 | | doesn't run / says not installed
 gcc | build-essential | 4 | | more testing needed
@@ -30,15 +34,18 @@ nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" 
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
+pip+ | | 0 | | **DO NOT INSTAL** with `--fix-missing`. Breaks `apt`. See documentation 
 php5-cli | | 4 | | Working, needs more testing
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
 ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
+sudo | | 5 | | appears to be working as expected
 swift | | 3 | ? | Everything except interactive shell works	
 tmux | | 0| | No server starts but it installs
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
-vim | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
+vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
 vsftpd | | 3 | ? | Not installed with apt
+wget | | 3 | | Simple commands work. Have only run basic commands
 xorg | | 4 | | Requires Configuration and an X server on Windows
-zsh | | 1 | | Installs and seems to switch shells but has no functionality
+zsh | | 0 | | Installs and seems to switch shells but has no functionality
