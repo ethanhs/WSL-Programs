@@ -49,3 +49,4 @@ vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
 xorg | | 4 | | Requires Configuration and an X server on Windows
 zsh | | 0 | | Installs and seems to switch shells but has no functionality
+ADB | | 0 | android-adb-tools | Installs but it doesnt recognize any device even with the Windows aDB drivers installed
