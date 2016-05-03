@@ -1,5 +1,5 @@
 # WSL-Programs
-A community powered list of programs that work (and those that don't) on the Windows subsystem for Linux
+A community powered list of programs that work (and those that don't) on the Windows subsystem for Linux. The official Microsoft repository for filing bugs etc is located [here](https://github.com/Microsoft/BashOnWindows). This repo complements the offical one by providing a quick reference for how well programs run.
 
 Please feel free to contribute programs you have tested to the table below. If you need help with the markdown, please review [a primer](https://help.gamejolt.com/markdown)
 
