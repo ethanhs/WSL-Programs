@@ -50,5 +50,6 @@ vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can c
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
 xorg | | 4 | | Requires Configuration and an X server on Windows
+yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 zsh | | 0 | | Installs and seems to switch shells but has no functionality
 ADB | | 0 | android-adb-tools | Installs but it doesnt recognize any device even with the Windows aDB drivers installed
