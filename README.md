@@ -11,8 +11,8 @@ If you need to add more details about a program then add a `+` symbol to its nam
 
 #The list:
 
-Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes
-------------- | --------------------------------------- | -------------------------- | --------------------- | ------------------
+Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes  | Windows Build #
+------------- | --------------------------------------- | -------------------------- | --------------------- | -------|----------
 Anaconda || 0 | [Continuum.io](https://www.continuum.io/downloads) | Will not install. Fails at symbolic links.
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
@@ -43,8 +43,8 @@ ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
 swift | | 3 | ? | Everything except interactive shell works	
+tesseract-ocr | | 4 | | No problems with command line usage
 tmux | | 0| | No server starts but it installs
-tesseract-ocr | | 4 | | No problems with command line usage   
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
 vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
