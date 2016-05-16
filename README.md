@@ -44,6 +44,7 @@ ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
 swift | | 3 | ? | Everything except interactive shell works	
 tmux | | 0| | No server starts but it installs
+tesseract-ocr | | 4 | | No problems with command line usage   
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
 vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
