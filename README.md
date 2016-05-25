@@ -36,6 +36,7 @@ npm | | 4 | | some packages fail due to permissions
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTAL** with `--fix-missing`. Breaks `apt`. See documentation 
 php5-cli | | 4 | | Working, needs more testing
+qpidd | | 0 | | Starting the daemon fails with a socket error: "critical Unexpected error: Can't bind to port 0.0.0.0:5672: Invalid argument (qpid/sys/posix/Socket.cpp:206)"
 scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
 sed | | 4 | | didn't test all options, but everything I tested worked fine. 
