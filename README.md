@@ -44,6 +44,7 @@ ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
 swift | | 3 | ? | Everything except interactive shell works	
+tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"	
 tensorflow | | 4 | | See [Scott Hanselman's post](http://www.hanselman.com/blog/PlayingWithTensorFlowOnWindows.aspx)
 tesseract-ocr | | 4 | | No problems with command line usage
 tmux | | 0| | No server starts but it installs
