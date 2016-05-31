@@ -29,6 +29,7 @@ java | | 0 | | does not install
 lynx | | 5 | | seems to work entirely
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
 mtr | | 0 | | doesn't run
+Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. | 
 nano | | 3 | | Functions correctly, but does not display correctly
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
