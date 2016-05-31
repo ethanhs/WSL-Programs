@@ -19,6 +19,7 @@ apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
 curl | | 4 | | curl -sS tested
 docker | | 0 | | doesn't run / says not installed
+fortune | | 5| | works fine
 gcc | build-essential | 4 | | more testing needed
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 ifconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
@@ -45,6 +46,7 @@ ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
 swift | | 3 | ? | Everything except interactive shell works	
 tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"	
+telnet | | 4 | | Further testing required
 tensorflow | | 4 | | See [Scott Hanselman's post](http://www.hanselman.com/blog/PlayingWithTensorFlowOnWindows.aspx)
 tesseract-ocr | | 4 | | No problems with command line usage
 tmux | | 0| | No server starts but it installs
