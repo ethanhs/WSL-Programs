@@ -9,6 +9,10 @@ Then add your program below!
 
 If you need to add more details about a program then add a `+` symbol to its name and add it to the `Program_Details.md` file.
 
+##Important Note
+Because this list is community powered, the maintainer does not hold any responsibility for the accuracy of the contents of this repository. Your mileage _may_ vary.
+
+
 #The list:
 
 Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes  | Windows Build #
