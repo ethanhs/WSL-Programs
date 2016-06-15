@@ -23,6 +23,7 @@ apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
 curl | | 4 | | curl -sS tested
 docker | | 0 | | doesn't run / says not installed
+emacs | | 3 | | works in terminal mode with many development packages installed both from elpa and Github repositories through el-get, but is slow when using commands that check or revert many buffers (e.g. magit). Attempting to start on X hangs. | 14366
 fortune | | 5| | works fine
 gcc | build-essential | 4 | | more testing needed
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
@@ -42,7 +43,11 @@ npm | | 4 | | some packages fail due to permissions
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTAL** with `--fix-missing`. Breaks `apt`. See documentation 
 php5-cli | | 4 | | Working, needs more testing
+python | | 5 | | Works even for very difficult and memory intensive workloads such as compiling PyPy | 14366
+pypy | | 5 | | Works even when translating itself | 14366
 qpidd | | 0 | | Starting the daemon fails with a socket error: "critical Unexpected error: Can't bind to port 0.0.0.0:5672: Invalid argument (qpid/sys/posix/Socket.cpp:206)"
+rbenv | | 4 | | works for the most part, but permissions of folders are wrong after installing (world writable), spawning warnings when running e.g. Rubygems | 14366
+ruby | | 5 | | works for Sinatra and Rails development using C extension gems | 14366
 scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
 sed | | 4 | | didn't test all options, but everything I tested worked fine. 
@@ -54,12 +59,14 @@ tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized fi
 telnet | | 4 | | Further testing required
 tensorflow | | 4 | | See [Scott Hanselman's post](http://www.hanselman.com/blog/PlayingWithTensorFlowOnWindows.aspx)
 tesseract-ocr | | 4 | | No problems with command line usage
-tmux | | 0| | No server starts but it installs
+texlive | | 5 | | No problems so far | 14366
+tmux | | 4 | | Works well for the most part, mouse mode doesn't seem to work  | 14366
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
 vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
+xfce4-terminal | | 5 | | Seems to work perfectly well, except for not being able to connect to DBUS | 14366
 xorg | | 4 | | Requires Configuration and an X server on Windows
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 zsh | | 0 | | Installs and seems to switch shells but has no functionality
