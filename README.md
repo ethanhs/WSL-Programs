@@ -25,6 +25,7 @@ curl | | 4 | | curl -sS tested
 docker | | 0 | | doesn't run / says not installed
 emacs | | 3 | | works in terminal mode with many development packages installed both from elpa and Github repositories through el-get, but is slow when using commands that check or revert many buffers (e.g. magit). Attempting to start on X hangs. | 14366
 fortune | | 5| | works fine
+gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
 gcc | build-essential | 4 | | more testing needed
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 ifconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
