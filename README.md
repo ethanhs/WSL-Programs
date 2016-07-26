@@ -27,6 +27,7 @@ emacs | | 3 | | works in terminal mode with many development packages installed 
 fortune | | 5| | works fine
 gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
 gcc | build-essential | 4 | | more testing needed
+ghc | haskell-platform | 0 | | Fails to install with error "ghc: timer_create: Function not implemented". | 14388.0
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 ifconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 ip | | 0 |  | Unable to Access Network Interfaces (Should be localhost for all connections)
