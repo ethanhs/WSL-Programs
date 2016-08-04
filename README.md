@@ -31,6 +31,8 @@ ghc | haskell-platform | 0 | | Fails to install with error "ghc: timer_create: F
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 ifconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 ip | | 0 |  | Unable to Access Network Interfaces (Should be localhost for all connections)
+ircii | | 1 |  | terminal handling is broken, once the window fills, it only uses the bottom 3 lines
+irssi | | 5 |  | seems to work flawlessly
 iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 java | | 0 | | does not install
 lynx | | 5 | | seems to work entirely
