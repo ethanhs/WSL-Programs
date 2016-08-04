@@ -43,7 +43,7 @@ nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" 
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
-pip+ | | 0 | | **DO NOT INSTAL** with `--fix-missing`. Breaks `apt`. See documentation 
+pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation 
 php5-cli | | 4 | | Working, needs more testing
 python | | 5 | | Works even for very difficult and memory intensive workloads such as compiling PyPy | 14366
 pypy | | 5 | | Works even when translating itself | 14366
