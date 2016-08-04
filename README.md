@@ -36,14 +36,14 @@ java | | 0 | | does not install
 lynx | | 5 | | seems to work entirely
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
 mtr | | 0 | | doesn't run
-Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))| 
+Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
 nano | | 3 | | Functions correctly, but does not display correctly
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
-pip+ | | 0 | | **DO NOT INSTAL** with `--fix-missing`. Breaks `apt`. See documentation 
+pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation 
 php5-cli | | 4 | | Working, needs more testing
 python | | 5 | | Works even for very difficult and memory intensive workloads such as compiling PyPy | 14366
 pypy | | 5 | | Works even when translating itself | 14366
@@ -52,12 +52,12 @@ rbenv | | 4 | | works for the most part, but permissions of folders are wrong af
 ruby | | 5 | | works for Sinatra and Rails development using C extension gems | 14366
 scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
-sed | | 4 | | didn't test all options, but everything I tested worked fine. 
+sed | | 4 | | didn't test all options, but everything I tested worked fine.
 ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
-swift | | 3 | ? | Everything except interactive shell works	
-tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"	
+swift | | 3 | ? | Everything except interactive shell works
+tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"
 telnet | | 4 | | Further testing required
 tensorflow | | 4 | | See [Scott Hanselman's post](http://www.hanselman.com/blog/PlayingWithTensorFlowOnWindows.aspx)
 tesseract-ocr | | 4 | | No problems with command line usage
@@ -65,7 +65,7 @@ texlive | | 5 | | No problems so far | 14366
 tmux | | 4 | | Works well for the most part, mouse mode doesn't seem to work  | 14366
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
-vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
+vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
 xfce4-terminal | | 5 | | Seems to work perfectly well, except for not being able to connect to DBUS | 14366
