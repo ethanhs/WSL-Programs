@@ -60,6 +60,7 @@ ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
 swift | | 3 | ? | Everything except interactive shell works	
 tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"	
+tcc | | 3 | | tcc run and scripted "#!/usr/bin/tcc -run" files work correctly
 telnet | | 4 | | Further testing required
 tensorflow | | 4 | | See [Scott Hanselman's post](http://www.hanselman.com/blog/PlayingWithTensorFlowOnWindows.aspx)
 tesseract-ocr | | 4 | | No problems with command line usage
