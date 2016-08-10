@@ -22,6 +22,7 @@ Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
 curl | | 4 | | curl -sS tested
+composer | | 5 | | doesn't seem to have issues, but could use more test.
 docker | | 0 | | doesn't run / says not installed
 emacs | | 3 | | works in terminal mode with many development packages installed both from elpa and Github repositories through el-get, but is slow when using commands that check or revert many buffers (e.g. magit). Attempting to start on X hangs. | 14366
 fortune | | 5| | works fine
@@ -47,6 +48,7 @@ npm | | 4 | | some packages fail due to permissions
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation 
 php5-cli | | 4 | | Working, needs more testing
+php7.0| | 4 | | Installed without issue, needs more testing
 python | | 5 | | Works even for very difficult and memory intensive workloads such as compiling PyPy | 14366
 pypy | | 5 | | Works even when translating itself | 14366
 qpidd | | 0 | | Starting the daemon fails with a socket error: "critical Unexpected error: Can't bind to port 0.0.0.0:5672: Invalid argument (qpid/sys/posix/Socket.cpp:206)"
