@@ -15,4 +15,4 @@ repercussions.
 
 ## Minor Issues
 ---------------
-- Keyboard shortcuts do not work in bash
+- Keyboard shortcuts do not work directly on bash window. If you need to use commands, like copy & paste, right-click on the title bar > edit > choose command. 
