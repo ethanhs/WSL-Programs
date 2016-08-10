@@ -17,6 +17,7 @@ Because this list is community powered, the maintainer does not hold any respons
 
 Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes  | Windows Build #
 ------------- | --------------------------------------- | -------------------------- | --------------------- | -------|----------
+ADB | | 2 | android-adb-tools | Installs; see notes for usage, requires adb on Windows too.
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
@@ -77,4 +78,4 @@ xfce4-terminal | | 5 | | Seems to work perfectly well, except for not being able
 xorg | | 4 | | Requires Configuration and an X server on Windows
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
-ADB | | 0 | android-adb-tools | Installs but it doesnt recognize any device even with the Windows aDB drivers installed
+
