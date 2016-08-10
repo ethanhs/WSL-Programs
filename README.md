@@ -31,6 +31,7 @@ gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting 
 gcc | build-essential | 4 | | more testing needed
 ghc | haskell-platform | 0 | | Fails to install with error "ghc: timer_create: Function not implemented". | 14388.0
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
+grep | | 4 | | WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 ifconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 ip | | 0 |  | Unable to Access Network Interfaces (Should be localhost for all connections)
 ircii | | 1 |  | terminal handling is broken, once the window fills, it only uses the bottom 3 lines
