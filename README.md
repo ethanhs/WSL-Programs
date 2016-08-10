@@ -39,6 +39,7 @@ irssi | | 5 |  | seems to work flawlessly
 iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 java | | 0 | | does not install
 lynx | | 5 | | seems to work entirely
+mount | | 2 | | unable to mount iso/cd-rom files
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
 mtr | | 0 | | doesn't run
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))| 
