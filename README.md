@@ -56,6 +56,7 @@ python | | 5 | | Works even for very difficult and memory intensive workloads su
 pypy | | 5 | | Works even when translating itself | 14366
 qpidd | | 0 | | Starting the daemon fails with a socket error: "critical Unexpected error: Can't bind to port 0.0.0.0:5672: Invalid argument (qpid/sys/posix/Socket.cpp:206)"
 rbenv | | 4 | | works for the most part, but permissions of folders are wrong after installing (world writable), spawning warnings when running e.g. Rubygems | 14366
+rsync | | 4 | | works with ssh tunneling and with same file system. Needs more testing
 ruby | | 5 | | works for Sinatra and Rails development using C extension gems | 14366
 scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
