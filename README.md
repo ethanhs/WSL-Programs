@@ -46,6 +46,7 @@ Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/webs
 nano | | 3 | | Functions correctly, but does not display correctly
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
+nginx | | 0 | | Fails at startup. Error log indicates that Nginx can't bind to address:port. Binding to loopback does not work either.
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
