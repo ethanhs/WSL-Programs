@@ -26,6 +26,7 @@ curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
 docker | | 0 | | doesn't run / says not installed
 emacs | | 3 | | works in terminal mode with many development packages installed both from elpa and Github repositories through el-get, but is slow when using commands that check or revert many buffers (e.g. magit). Attempting to start on X hangs. | 14366
+fish | | 5 | | works fine
 fortune | | 5| | works fine
 gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
 gcc | build-essential | 4 | | more testing needed
