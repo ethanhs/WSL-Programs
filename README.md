@@ -43,6 +43,7 @@ lynx | | 5 | | seems to work entirely
 mount | | 2 | | unable to mount iso/cd-rom files
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
 mtr | | 0 | | doesn't run
+Mongo Client | | 4 | | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))| 
 nano | | 3 | | Functions correctly, but does not display correctly
 nasm | | 4 | | more testing needed
