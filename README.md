@@ -22,6 +22,7 @@ Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple comm
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
+byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
 curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
 docker | | 0 | | doesn't run / says not installed
