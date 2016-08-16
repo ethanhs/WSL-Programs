@@ -23,9 +23,12 @@ ADB | | 2 | android-adb-tools | Installs; see [this image](https://cloud.githubu
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
+apt-fast | | 0 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Depends on aria2c. | 14901.1000
+aria2c | aria2 | 3 | | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
 blackfire.io | | 0 | | Error while trying to listen for connections on 'unix:///var/run/blackfire/agent.sock'
 byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
+[c-ares](https://github.com/c-ares/c-ares) | libc-ares2 | 0 | | Does not resolve domains to ip addresses. | 14901.1000
 cargo | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
 curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
