@@ -64,7 +64,7 @@ nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" 
 nginx | | 0 | | Fails at startup. Error log indicates that Nginx can't bind to address:port. Binding to loopback does not work either.
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
-ping | | 0 | | Fails with `ping: icmp open socket: Socket type not supported`
+ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation 
 php5-cli | | 4 | | Working, needs more testing
 php7.0| | 4 | | Installed without issue, needs more testing
