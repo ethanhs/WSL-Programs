@@ -71,6 +71,7 @@ php7.0| | 4 | | Installed without issue, needs more testing
 python | | 5 | | Works even for very difficult and memory intensive workloads such as compiling PyPy | 14366
 pypy | | 5 | | Works even when translating itself | 14366
 qpidd | | 0 | | Starting the daemon fails with a socket error: "critical Unexpected error: Can't bind to port 0.0.0.0:5672: Invalid argument (qpid/sys/posix/Socket.cpp:206)"
+R | r-base  | 4 | | devtools, doParallel and foreach works. May be numerically a little different from other system. More tests needed.  | 14393
 rbenv | | 4 | | works for the most part, but permissions of folders are wrong after installing (world writable), spawning warnings when running e.g. Rubygems | 14366
 rsync | | 4 | | works with ssh tunneling and with same file system. Needs more testing
 ruby | | 5 | | works for Sinatra and Rails development using C extension gems | 14366
