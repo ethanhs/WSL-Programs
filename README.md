@@ -6,7 +6,7 @@ If you'd like to chat about the Windows Subsystem for Linux (or have a question)
 
 ##About
 
-A community powered list of programs that work (and those that don't) on the Windows subsystem for Linux. The official Microsoft repository for filing bugs etc is located [here](https://github.com/Microsoft/BashOnWindows). This repo complements the offical one by providing a quick reference for how well programs run. 
+A community powered list of programs that work (and those that don't) on the Windows subsystem for Linux. The official Microsoft repository for filing bugs etc is located [here](https://github.com/Microsoft/BashOnWindows). This repo complements the offical one by providing a quick reference for how well programs run.
 
 Please feel free to contribute programs you have tested to the table below. If you need help with the markdown, please review [a primer](https://help.gamejolt.com/markdown)
 
@@ -57,15 +57,15 @@ mount | | 2 | | unable to mount iso/cd-rom files
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
 mtr | | 0 | | doesn't run
 Mongo Client | | 4 | | Works well connecting to mongod windows service
-Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))| 
+Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
 nano | | 3 | | Functions correctly, but does not display correctly
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
-nginx | | 0 | | Fails at startup. Error log indicates that Nginx can't bind to address:port. Binding to loopback does not work either.
+nginx | | 3 | | can bind to IPv4 only - needs some workarounds. See Program_Details.md
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
-pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation 
+pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation
 php5-cli | | 4 | | Working, needs more testing
 php7.0| | 4 | | Installed without issue, needs more testing
 python | | 5 | | Works even for very difficult and memory intensive workloads such as compiling PyPy | 14366
@@ -78,12 +78,12 @@ ruby | | 5 | | works for Sinatra and Rails development using C extension gems | 
 rustc | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Can compile basic programs. Needs testing with more complex programs | 14393.67
 scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
-sed | | 4 | | didn't test all options, but everything I tested worked fine. 
+sed | | 4 | | didn't test all options, but everything I tested worked fine.
 ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
-swift | | 3 | ? | Everything except interactive shell works	
-tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"	
+swift | | 3 | ? | Everything except interactive shell works
+tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"
 tcc | | 3 | | tcc run and scripted "#!/usr/bin/tcc -run" files work correctly
 telnet | | 4 | | Further testing required
 tensorflow | | 4 | | See [Scott Hanselman's post](http://www.hanselman.com/blog/PlayingWithTensorFlowOnWindows.aspx)
@@ -92,11 +92,10 @@ texlive | | 5 | | No problems so far | 14366
 tmux | | 4 | | Works well for the most part, mouse mode doesn't seem to work  | 14366
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
-vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly. 
+vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
 xfce4-terminal | | 5 | | Seems to work perfectly well, except for not being able to connect to DBUS | 14366
 xorg | | 4 | | Requires Configuration and an X server on Windows
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
-
