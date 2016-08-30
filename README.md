@@ -45,7 +45,7 @@ gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting 
 gcc | build-essential | 4 | | more testing needed
 ghc | haskell-platform | 0 | | Fails to install with error "ghc: timer_create: Function not implemented". | 14388.0
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
-grep | | 4 | | WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
+grep | | 4 | | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 ifconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 ip | | 0 |  | Unable to Access Network Interfaces (Should be localhost for all connections)
 ircii | | 1 |  | terminal handling is broken, once the window fills, it only uses the bottom 3 lines
@@ -61,7 +61,7 @@ Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/webs
 nano | | 3 | | Functions correctly, but does not display correctly
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
-nginx | | 3 | | can bind to IPv4 only - needs some workarounds. See Program_Details.md
+nginx+ | | 3 | | can bind to IPv4 only - needs some workarounds.
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
