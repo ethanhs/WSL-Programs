@@ -24,7 +24,7 @@ Because this list is community powered, the maintainer does not hold any respons
 
 Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes  | Windows Build #
 ------------- | --------------------------------------- | -------------------------- | --------------------- | -------|----------
-ADB | | 2 | android-adb-tools | Installs; see [this image](https://cloud.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
+ADB | | 2 | android-adb-tools | Installs; see [this image](https://butt.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
@@ -45,7 +45,7 @@ gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting 
 gcc | build-essential | 4 | | more testing needed
 ghc | haskell-platform | 0 | | Fails to install with error "ghc: timer_create: Function not implemented". | 14388.0
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
-gparted | | 2 | | Window opens and can be interacted with, but it can't find any devices. Requires X server, only tested after [dbus fix](https://www.reddit.com/r/Windows10/comments/4rsmzp/bash_on_windows_getting_dbus_and_x_server_working/) with [VcXserv](https://sourceforge.net/projects/vcxsrv/). | 14393.187
+gparted | | 2 | | Window opens and can be interacted with, but it can't find any devices and the close button doesn't work so you have to Ctrl + C in bash. Requires X server, only tested after [dbus fix](https://www.reddit.com/r/Windows10/comments/4rsmzp/bash_on_windows_getting_dbus_and_x_server_working/) with [VcXserv](https://sourceforge.net/projects/vcxsrv/). | 14393.187
 grep | | 4 | | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 ifconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 ip | | 0 |  | Unable to Access Network Interfaces (Should be localhost for all connections)
