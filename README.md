@@ -24,7 +24,7 @@ Because this list is community powered, the maintainer does not hold any respons
 
 Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes  | Windows Build #
 ------------- | --------------------------------------- | -------------------------- | --------------------- | -------|----------
-ADB | | 2 | android-adb-tools | Installs; see [this image](https://cloud.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
+ADB | | 2 | android-adb-tools | Installs; see [this image](https://butt.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
