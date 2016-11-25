@@ -15,4 +15,7 @@ repercussions.
 
 ## Minor Issues
 ---------------
-- Keyboard shortcuts do not work directly on bash window. If you need to use commands, like copy & paste, right-click on the title bar > edit > choose command. 
+- Common keyboard shortcuts like `Ctrl+C` and `Ctrl+V` do not work
+  directly on bash window. You can access command like copy & paste by
+  right-clicking on the title bar > edit > choose command. It is also
+  possible to use `Enter` for copy and right mouse button for paste.
