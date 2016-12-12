@@ -80,7 +80,7 @@ R | r-base  | 4 | | devtools, doParallel and foreach works. May be numerically a
 rbenv | | 4 | | works for the most part, but permissions of folders are wrong after installing (world writable), spawning warnings when running e.g. Rubygems | 14366
 reboot | | 0 | | Unable to shutdown system.
 rsync | | 4 | | works with ssh tunneling and with same file system. Needs more testing
-ruby | | 5 | | works for Sinatra and Rails development using C extension gems | 14366
+ruby | | 4 | | works for Sinatra and Rails development using C extension gems for the most part, but `rails new testapp` works with `WeBrick` (the default), but hangs with `thin` | 14986
 rustc | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Can compile basic programs. Needs testing with more complex programs | 14393.67
 scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
