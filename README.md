@@ -54,7 +54,7 @@ ip | | 0 |  | Unable to Access Network Interfaces (Should be localhost for all c
 ircii | | 1 |  | terminal handling is broken, once the window fills, it only uses the bottom 3 lines
 irssi | | 5 |  | seems to work flawlessly
 iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
-java | | 0 | | does not install
+java | | 2 | | 1.8 runs at minimum, seems to have some functionality at least
 lynx | | 5 | | seems to work entirely
 mount | | 2 | | unable to mount iso/cd-rom files
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
