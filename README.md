@@ -58,6 +58,7 @@ iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for 
 java | | 2 | | 1.8 runs at minimum, seems to have some functionality at least
 lynx | | 5 | | seems to work entirely
 mount | | 2 | | unable to mount iso/cd-rom files
+Maude | | 4 | | Installed without issue, needs more testing
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
 mtr | | 0 | | doesn't run
 Mongo Client | | 4 | | Works well connecting to mongod windows service
@@ -89,6 +90,7 @@ sed | | 4 | | didn't test all options, but everything I tested worked fine.
 ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
+SWI-Prolog | | 4 | | Installed without issue, needs more testing. See: [(Installing from PPA (Ubuntu Personal Package Archive))](http://www.swi-prolog.org/build/PPA.txt)
 swift | | 3 | ? | Everything except interactive shell works
 tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"
 tcc | | 3 | | tcc run and scripted "#!/usr/bin/tcc -run" files work correctly
