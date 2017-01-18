@@ -37,7 +37,7 @@ byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/to
 cargo | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
 curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
-docker | | 0 | | doesn't run / says not installed
+docker | | 0/5 | | docker engine doesn't run / says not installed; docker client tools work as expected to control remote docker or Docker for Windows running on host
 emacs | | 3 | | works in terminal mode with many development packages installed both from elpa and Github repositories through el-get, but is slow when using commands that check or revert many buffers (e.g. magit). Attempting to start on X hangs. | 14366
 fish | | 5 | | works fine
 fortune | | 5| | works fine
