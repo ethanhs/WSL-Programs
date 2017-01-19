@@ -37,10 +37,12 @@ byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/to
 cargo | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
 curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
+Coq | | 4 | | Installed without issue, needs more testing. | 14393
 docker | | 0 | | doesn't run / says not installed
 emacs | | 3 | | works in terminal mode with many development packages installed both from elpa and Github repositories through el-get, but is slow when using commands that check or revert many buffers (e.g. magit). Attempting to start on X hangs. | 14366
 fish | | 5 | | works fine
 fortune | | 5| | works fine
+fsharp | | 4 | | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
 gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
 gcc | build-essential | 4 | | more testing needed
 ghc | haskell-platform | 0 | | Fails to install with error "ghc: timer_create: Function not implemented". | 14388.0
@@ -60,9 +62,10 @@ lynx | | 5 | | seems to work entirely
 mount | | 2 | | unable to mount iso/cd-rom files
 Maude | | 4 | | Installed without issue, needs more testing
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
-mtr | | 0 | | doesn't run
+MLton | | 0 | | BSOD | 14393
 Mongo Client | | 4 | | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
+mtr | | 0 | | doesn't run
 nano | | 3 | | Functions correctly, but does not display correctly
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
@@ -70,6 +73,7 @@ nginx+ | | 3 | | can bind to IPv4 only - needs some workarounds.
 nmap | | 0 | | AF_Netsock options not implemented [#1349](https://github.com/Microsoft/BashOnWindows/issues/1349)
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
+OCaml | | 3 | | Installed, needs more testing. Command used `sudo apt-get install ocaml ocaml-interp` | 14393
 mysql | | 0 | | Fails to find .sock file
 ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation
@@ -87,10 +91,11 @@ rustc | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Can co
 scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
 sed | | 4 | | didn't test all options, but everything I tested worked fine.
+SMLNJ | | 0 | | Installed. Will not start correctly. | 14393
 ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
-SWI-Prolog | | 4 | | Installed without issue, needs more testing. See: [(Installing from PPA (Ubuntu Personal Package Archive))](http://www.swi-prolog.org/build/PPA.txt)
+SWI-Prolog | | 4 | | Installed without issue, needs more testing. See: [(Installing from PPA (Ubuntu Personal Package Archive))](http://www.swi-prolog.org/build/PPA.txt) | 14393
 swift | | 3 | ? | Everything except interactive shell works
 tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"
 tcc | | 3 | | tcc run and scripted "#!/usr/bin/tcc -run" files work correctly
