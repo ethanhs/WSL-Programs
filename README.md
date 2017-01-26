@@ -1,6 +1,6 @@
 # WSL-Programs
 
-[![Join the chat at https://gitter.im/ethanhs/WSL-Programs](https://badges.gitter.im/ethanhs/WSL-Programs.svg)](https://gitter.im/ethanhs/WSL-Programs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) &#124; [![GitHub contributors](https://img.shields.io/github/contributors/ethanhs/WSL-Programs.svg?style=flat-square)](https://github.com/ethanhs/WSL-Programs/graphs/contributors) &#124; [![CC0 license](https://img.shields.io/badge/license-CC0-blue.svg?style=flat-square)](https://github.com/ethanhs/WSL-Programs/blob/master/LICENSE)
+[![Join the chat at https://gitter.im/ethanhs/WSL-Programs](https://img.shields.io/gitter/room/ethanhs/WSL-Programs.svg?style=flat-square)](https://gitter.im/ethanhs/WSL-Programs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) &#124; [![GitHub contributors](https://img.shields.io/github/contributors/ethanhs/WSL-Programs.svg?style=flat-square)](https://github.com/ethanhs/WSL-Programs/graphs/contributors) &#124; [![CC0 license](https://img.shields.io/badge/license-CC0-blue.svg?style=flat-square)](https://github.com/ethanhs/WSL-Programs/blob/master/LICENSE)
 
 If you'd like to chat about the Windows Subsystem for Linux (or have a question) please use the gitter chat linked above. If you are looking for guidance on getting started with Bash on Ubuntu on Windows, check [here](https://github.com/abergs/ubuntuonwindows).
 
