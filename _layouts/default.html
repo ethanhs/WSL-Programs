@@ -43,6 +43,29 @@
       <footer class="inner">
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+<script>
+//idea stolen from https://github.com/Calvein/humble-games/blob/gh-pages/scripts/script.js. too lazy to do this properly...
+var xhr = new XMLHttpRequest();
+xhr.open('get', 'https://api.github.com/repos/ethanhs/WSL-Programs/contributors', true);
+xhr.responseType = 'json';
+xhr.onload = function() {
+	var status = xhr.status;
+	if (status == 200) {
+		var contents = [];
+		xhr.response.map(function(contributor){
+			if(contributor.login!=='ethanhs'){
+				var a = document.createElement('a');
+				a.innerText = contributor.login;
+				a.href=contributor.html_url;
+				contents.push(a.outerHTML);
+			}
+		});
+		var cEle = document.querySelector('#footer_wrap > footer > p.copyright');
+		cEle.innerHTML += " with contributions from " + contents.join(', ');
+	}
+};
+xhr.send();
+</script>
         {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
