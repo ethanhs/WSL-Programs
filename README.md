@@ -4,7 +4,7 @@
 
 If you'd like to chat about the Windows Subsystem for Linux (or have a question) please use the gitter chat linked above. If you are looking for guidance on getting started with Bash on Ubuntu on Windows, check [here](https://github.com/abergs/ubuntuonwindows).
 
-##About
+## About
 
 A community powered list of programs that work (and those that don't) on the Windows subsystem for Linux. The official Microsoft repository for filing bugs etc is located [here](https://github.com/Microsoft/BashOnWindows). This repo complements the offical one by providing a quick reference for how well programs run.
 
@@ -16,11 +16,11 @@ Then add your program below!
 
 If you need to add more details about a program then add a `+` symbol to its name and add it to the `Program_Details.md` file.
 
-##Important Note
+## Important Note
 Because this list is community powered, the maintainer does not hold any responsibility for the accuracy of the contents of this repository. Your mileage _may_ vary.
 
 
-#The list:
+# The list:
 
 Program Name  | apt name if different (blank otherwise) | Functionality rating (0-5) | website if not on apt | Notes  | Windows Build #
 ------------- | --------------------------------------- | -------------------------- | --------------------- | -------|----------
