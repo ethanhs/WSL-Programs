@@ -14,7 +14,7 @@ To contribute, please make a Pull Request, I will merge if it looks good! If you
 
 Then add your program below!
 
-If you need to add more details about a program then add a `+` symbol to its name and add it to the `Program_Details.md` file.
+If you need to add more details about a program then add a `+` symbol to its name and add it to the [Program_Details.md](Program_Details.md) file.
 
 ## Important Note
 Because this list is community powered, the maintainer does not hold any responsibility for the accuracy of the contents of this repository. Your mileage _may_ vary.
