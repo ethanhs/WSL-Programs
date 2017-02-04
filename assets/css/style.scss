@@ -1,0 +1,17 @@
+---
+---
+
+@import "jekyll-theme-slate";
+
+.inner {
+  max-width: 960px;
+}
+
+h1#wsl-programs {
+	display:none;
+}
+
+tr > td:nth-child(3) {
+	text-align: center;
+	vertical-align:middle;
+}
