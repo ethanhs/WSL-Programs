@@ -74,6 +74,7 @@ nmap | | 0 | | AF_Netsock options not implemented [#1349](https://github.com/Mic
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 OCaml | | 3 | | Installed, needs more testing. Command used `sudo apt-get install ocaml ocaml-interp` | 14393
+[OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
 mysql | | 0 | | Fails to find .sock file
 ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation
@@ -114,3 +115,7 @@ xfce4-terminal | | 5 | | Seems to work perfectly well, except for not being able
 xorg | | 4 | | Requires Configuration and an X server on Windows
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
+
+[the OpenCoarrays install instructions]: https://github.com/sourceryinstitute/opencoarrays/blob/master/INSTALL.md#windows
+[OpenCoarrays]: https://github.com/sourceryinstitute/opencoarrays
+[opencoarrays.org]: http://opencoarrays.org
