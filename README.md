@@ -40,7 +40,7 @@ composer | | 5 | | doesn't seem to have issues, but could use more test.
 Coq | | 4 | | Installed without issue, needs more testing. | 14393
 docker | | 0 | | doesn't run / says not installed
 emacs | | 3 | | works in terminal mode with many development packages installed both from elpa and Github repositories through el-get, but is slow when using commands that check or revert many buffers (e.g. magit). Attempting to start on X hangs. | 14366
-firefox |firefox| 0 | |Sandbox eror unexpected multithreading found, this prevents using namespace sandboxing. Error GDK_BACKEND does not match available displays |14393
+firefox |firefox| 3 | | Able to get working using firefox on X server. Sandbox eror unexpected multithreading found, this prevents using namespace sandboxing. Error GDK_BACKEND does not match available displays |14393
 fish | | 5 | | works fine
 fortune | | 5| | works fine
 fsharp | | 4 | | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
