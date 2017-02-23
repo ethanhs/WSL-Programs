@@ -45,7 +45,7 @@ fortune | | 5| | works fine
 fsharp | | 4 | | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
 gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
 gcc | build-essential | 4 | | more testing needed
-ghc | haskell-platform | 0 | | Fails to install with error "ghc: timer_create: Function not implemented". | 14388.0
+ghc | ghc | 4 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) | Needs more tests | 15031
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 GNOME Web | epiphany-browser | 4 | [How-to](http://browsingthenet.blogspot.com/2016/11/how-to-run-epiphany-web-browser-in.html) | Works fine but the video is choppy | 14393
 gparted | | 2 | | Window opens and can be interacted with, but it can't find any devices and the close button doesn't work so you have to Ctrl + C in bash. Requires X server, only tested after [dbus fix](https://www.reddit.com/r/Windows10/comments/4rsmzp/bash_on_windows_getting_dbus_and_x_server_working/) with [VcXserv](https://sourceforge.net/projects/vcxsrv/). | 14393.187
@@ -89,6 +89,7 @@ reboot | | 0 | | Unable to shutdown system.
 rsync | | 4 | | works with ssh tunneling and with same file system. Needs more testing
 ruby | | 4 | | works for Sinatra and Rails development using C extension gems for the most part, but `rails new testapp` works with `WeBrick` (the default), but hangs with `thin` | 14986
 rustc | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Can compile basic programs. Needs testing with more complex programs | 14393.67
+Sage Math | | 4 | [http://www.sagemath.org/](http://www.sagemath.org/) | Able to do a good portion of the Sage Math tutorial. There is a RunTime warning but does not stop Sage from working | 15031
 scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
 sed | | 4 | | didn't test all options, but everything I tested worked fine.
