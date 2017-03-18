@@ -29,11 +29,11 @@ Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple comm
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
 apt-fast | | 0 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Depends on aria2c. | 14901.1000
-aria2c | aria2 | 3 | | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
+aria2c | aria2 | 4 | | Works fine, could use more tests | 15060
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
 blackfire.io | | 0 | | Error while trying to listen for connections on 'unix:///var/run/blackfire/agent.sock'
 byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
-[c-ares](https://github.com/c-ares/c-ares) | libc-ares2 | 0 | | Does not resolve domains to ip addresses. | 14901.1000
+[c-ares](https://github.com/c-ares/c-ares) | libc-ares2 | 4 | | Works fine, could use more tests | 15060
 cargo | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
 curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
@@ -46,7 +46,7 @@ fortune | | 5| | works fine
 fsharp | | 4 | | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
 gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
 gcc | build-essential | 4 | | more testing needed
-ghc | ghc | 4 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) | Needs more tests | 15031
+ghc | ghc | 3 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) | Works but very slow due to bottlenecks in I/O | 15031
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 GNOME Web | epiphany-browser | 4 | [How-to](http://browsingthenet.blogspot.com/2016/11/how-to-run-epiphany-web-browser-in.html) | Works fine but the video is choppy | 14393
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
