@@ -113,6 +113,7 @@ tesseract-ocr | | 4 | | No problems with command line usage
 texlive | | 5 | | No problems so far | 14366
 tmux | | 4 | | Works well for the most part, mouse mode doesn't seem to work  | 14366
 torproject | tor | 5 | | Tor is a free software that prevents people from learning your location or browsing habits by letting you communicate anonymously on the Internet. | 14393
+ufw | | 0 | | Fails with an error about iptables
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
 vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
