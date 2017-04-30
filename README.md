@@ -75,8 +75,7 @@ mtr | | 0 | | doesn't run
 nano | | 4 | | Functions and displays correctly | 15063.138
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
-nginx | | 4 | | Seems to work flawlessly
-nginx+ | | 3 | | can bind to IPv4 only - needs some workarounds.
+nginx+ | | 4 | | Can't bind to IPv6
 nmap | | 0 | | AF_Netsock options not implemented [#1349](https://github.com/Microsoft/BashOnWindows/issues/1349)
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
