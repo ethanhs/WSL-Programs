@@ -70,6 +70,7 @@ make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for 
 MLton | | 0 | | BSOD | 14393
 Mongo Client | | 4 | | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
+mysql | | 4 | | Seems to work flawlessly
 mtr | | 0 | | doesn't run
 nano | | 3 | | Functions correctly, but does not display correctly
 nasm | | 4 | | more testing needed
@@ -80,7 +81,6 @@ nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 OCaml | | 3 | | Installed, needs more testing. Command used `sudo apt-get install ocaml ocaml-interp` | 14393
 [OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
-mysql | | 0 | | Fails to find .sock file
 ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation
 php5-cli | | 4 | | Working, needs more testing
