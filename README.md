@@ -70,12 +70,12 @@ make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for 
 MLton | | 0 | | BSOD | 14393
 Mongo Client | | 4 | | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
-mysql | | 4 | | Seems to work flawlessly
+mysql | | 4 | | Seems to work flawlessly | 15063.138
 mtr | | 0 | | doesn't run
 nano | | 4 | | Functions and displays correctly | 15063.138
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
-nginx+ | | 4 | | Can't bind to IPv6
+nginx+ | | 4 | | Can't bind to IPv6 | 15063.138
 nmap | | 0 | | AF_Netsock options not implemented [#1349](https://github.com/Microsoft/BashOnWindows/issues/1349)
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
@@ -113,7 +113,7 @@ tesseract-ocr | | 4 | | No problems with command line usage
 texlive | | 5 | | No problems so far | 14366
 tmux | | 4 | | Works well for the most part, mouse mode doesn't seem to work  | 14366
 torproject | tor | 5 | | Tor is a free software that prevents people from learning your location or browsing habits by letting you communicate anonymously on the Internet. | 14393
-ufw | | 0 | | Fails with an error about iptables
+ufw | | 0 | | Fails with an error about iptables | 15063.138
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
 vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
