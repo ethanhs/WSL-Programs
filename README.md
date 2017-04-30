@@ -72,7 +72,7 @@ Mongo Client | | 4 | | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
 mysql | | 4 | | Seems to work flawlessly
 mtr | | 0 | | doesn't run
-nano | | 3 | | Functions correctly, but does not display correctly
+nano | | 4 | | Functions and displays correctly | 15063.138
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
 nginx | | 4 | | Seems to work flawlessly
