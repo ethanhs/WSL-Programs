@@ -29,6 +29,7 @@ Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple comm
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
 apt | | 5 | | Works fine | 15063.138
 apt-fast | | 3 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Simple commands work. Needs more testing | 15063.138
+archey | | 3 | | Works for the most part, but displays disk usage incorrectly | 15063.138
 aria2c | aria2 | 3 | | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
 blackfire.io | | 0 | | Error while trying to listen for connections on 'unix:///var/run/blackfire/agent.sock'
