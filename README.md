@@ -27,8 +27,9 @@ Program Name  | apt name | Functionality rating (0-5) | website | Notes  | Windo
 ADB | | 2 | android-adb-tools | Installs; see [this image](https://cloud.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | | Must use a loopback for networking, buggy
-apt | | 3 | | Problems with `autoremove`, `remove`, and `--fix-missing`
-apt-fast | | 0 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Depends on aria2c. | 14901.1000
+apt | | 5 | | Works fine | 15063.138
+apt-fast | | 3 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Simple commands work. Needs more testing | 15063.138
+archey | | 3 | | Works for the most part, but displays disk usage incorrectly | 15063.138
 aria2c | aria2 | 3 | | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
 blackfire.io | | 0 | | Error while trying to listen for connections on 'unix:///var/run/blackfire/agent.sock'
@@ -69,17 +70,17 @@ make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for 
 MLton | | 0 | | BSOD | 14393
 Mongo Client | | 4 | | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
+mysql | | 4 | | Seems to work flawlessly | 15063.138
 mtr | | 0 | | doesn't run
-nano | | 3 | | Functions correctly, but does not display correctly
+nano | | 4 | | Functions and displays correctly | 15063.138
 nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
-nginx+ | | 3 | | can bind to IPv4 only - needs some workarounds.
+nginx+ | | 4 | | Can't bind to IPv6 | 15063.138
 nmap | | 0 | | AF_Netsock options not implemented [#1349](https://github.com/Microsoft/BashOnWindows/issues/1349)
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 OCaml | | 3 | | Installed, needs more testing. Command used `sudo apt-get install ocaml ocaml-interp` | 14393
 [OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
-mysql | | 0 | | Fails to find .sock file
 ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation
 php5-cli | | 4 | | Working, needs more testing
@@ -112,6 +113,7 @@ tesseract-ocr | | 4 | | No problems with command line usage
 texlive | | 5 | | No problems so far | 14366
 tmux | | 4 | | Works well for the most part, mouse mode doesn't seem to work  | 14366
 torproject | tor | 5 | | Tor is a free software that prevents people from learning your location or browsing habits by letting you communicate anonymously on the Internet. | 14393
+ufw | | 0 | | Fails with an error about iptables | 15063.138
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
 vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
