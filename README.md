@@ -56,8 +56,8 @@ grep | | 4 | | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more tes
 haxe | | 5 | [Haxe Foundation PPA](http://haxe.org/download/linux) | Compiles programs correctly, haxelib works fine too
 heroku | | 5 | [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) | Installs and works as expected, tested app listing, logs, setting config
 i3 | | 4 | [i3wm.org](http://i3wm.org/) | Works fine under VcXsrv Server 1.19.2.0 without `-multiwindow` command line option. Added `export DISPLAY=:0` to `.bashrc` | 15063.138
-ifconfig | | 3 | | Seems to work fine | 15063.138
-ip | | 3 |  | Seems to work fine | 15063.138
+ifconfig | | 4 | | Seems to work fine | 15063.138
+ip | | 4 |  | Seems to work fine | 15063.138
 ircii | | 1 |  | terminal handling is broken, once the window fills, it only uses the bottom 3 lines
 irssi | | 5 |  | seems to work flawlessly
 iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
@@ -77,7 +77,7 @@ nasm | | 4 | | more testing needed
 nethack | | 4 | | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
 nginx+ | | 4 | | Can't bind to IPv6 | 15063.138
 nmap | | 0 | | AF_Netsock options not implemented [#1349](https://github.com/Microsoft/BashOnWindows/issues/1349)
-node.js | nodejs | 3 | | Seems to work fine. Runs the React VR hello world project perfectly. | 15063.138
+node.js | nodejs | 4 | | Seems to work fine. Runs the React VR hello world project perfectly. | 15063.138
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 OCaml | | 3 | | Installed, needs more testing. Command used `sudo apt-get install ocaml ocaml-interp` | 14393
