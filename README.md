@@ -56,8 +56,8 @@ grep | | 4 | | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more tes
 haxe | | 5 | [Haxe Foundation PPA](http://haxe.org/download/linux) | Compiles programs correctly, haxelib works fine too
 heroku | | 5 | [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) | Installs and works as expected, tested app listing, logs, setting config
 i3 | | 4 | [i3wm.org](http://i3wm.org/) | Works fine under VcXsrv Server 1.19.2.0 without `-multiwindow` command line option. Added `export DISPLAY=:0` to `.bashrc` | 15063.138
-ifconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
-ip | | 0 |  | Unable to Access Network Interfaces (Should be localhost for all connections)
+ifconfig | | 3 | | Seems to work fine | 15063.138
+ip | | 3 |  | Seems to work fine | 15063.138
 ircii | | 1 |  | terminal handling is broken, once the window fills, it only uses the bottom 3 lines
 irssi | | 5 |  | seems to work flawlessly
 iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
