@@ -98,7 +98,7 @@ ruby | | 4 | | works for Sinatra and Rails development using C extension gems fo
 rustc | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Can compile basic programs. Needs testing with more complex programs | 14393.67
 Sage Math | | 4 | [http://www.sagemath.org/](http://www.sagemath.org/) | Able to do a good portion of the Sage Math tutorial. There is a RunTime warning but does not stop Sage from working | 15031
 scp | | 5 | | works for both remote to local and local to remote transfers.
-screen | | 0 | | Already installed. Gives permission denied if not sudouser and doesn't start if given permissions
+screen | | 4 | | Already installed. [Simple fix needed.](https://www.systutorials.com/qa/1639/screen-reporting-cannot-directory-screen-permission-denied?show=1640#a1640) | 15063 (Xenial)
 sed | | 4 | | didn't test all options, but everything I tested worked fine.
 SMLNJ | | 0 | | Installed. Will not start correctly. | 14393
 ssh | | 4 | | ssh -i works
