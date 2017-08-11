@@ -101,6 +101,7 @@ scp | | 5 | | works for both remote to local and local to remote transfers.
 screen | | 4 | | Already installed. [Simple fix needed.](https://www.systutorials.com/qa/1639/screen-reporting-cannot-directory-screen-permission-denied?show=1640#a1640) | 15063 (Xenial)
 sed | | 4 | | didn't test all options, but everything I tested worked fine.
 SMLNJ | | 0 | | Installed. Will not start correctly. | 14393
+sqlite | | 4 | | [File locking is broken](https://github.com/Microsoft/BashOnWindows/issues/2395), which can lead to database corruption
 ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
