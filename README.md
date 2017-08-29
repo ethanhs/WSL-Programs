@@ -31,6 +31,7 @@ apt | | 5 | | Works fine | 15063.138
 apt-fast | | 3 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Simple commands work. Needs more testing | 15063.138
 archey | | 3 | | Works for the most part, but displays disk usage incorrectly | 15063.138
 aria2c | aria2 | 3 | | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
+atom | atom | 0 | [Atom.io](https://atom.io) | Does not install, causes `apt` and `dpkg` to lock up trying to install | 16275
 bash+ | | 3 | | Most functionality exists but there are problems with scripts
 blackfire.io | | 0 | | Error while trying to listen for connections on 'unix:///var/run/blackfire/agent.sock'
 byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
@@ -40,6 +41,7 @@ curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
 Coq | | 4 | | Installed without issue, needs more testing. | 14393
 docker | | 0 | | doesn't run / says not installed
+Electron (and any apps based on it) | | 3 | [electron.atom.io](https://electron.atom.io/) | Some apps will install, but not run. Some will not install at all. Any app that uses Chrome 53 or later as it's backend **should** in theory work, no promises | 16275
 emacs | | 5 | | with latest WSL and Ubuntu Xenial works great in terminal mode and over X. | 16251 
 firefox |firefox| 3 | | Able to get working using firefox on X server. Sandbox eror unexpected multithreading found, this prevents using namespace sandboxing. Error GDK_BACKEND does not match available displays |14393
 fish | | 5 | | works fine
@@ -47,7 +49,9 @@ fortune | | 5| | works fine
 fsharp | | 4 | | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
 gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
 gcc | build-essential | 4 | | more testing needed
+gedit | gedit | 5 | | Works just fine after X Server configuration. Will throw some Dbus errors, but doesn't seem to affect performance. Can read and write files to Linux and Windows | 16275
 ghc | ghc | 4 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) | Needs more tests | 15031
+gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Does throw some UI and Dbus errors, but performance doesn't seem affected. Can read and write files to both Linux and Windows | 16275
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 GNOME Web | epiphany-browser | 4 | [How-to](http://browsingthenet.blogspot.com/2016/11/how-to-run-epiphany-web-browser-in.html) | Works fine but the video is choppy | 14393
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
@@ -67,6 +71,7 @@ lynx | | 5 | | seems to work entirely
 mount | | 2 | | unable to mount iso/cd-rom files
 Maude | | 4 | | Installed without issue, needs more testing
 make | | 3 | | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
+Meteor | | 5 | [meteor.com](https://meteor.com) | Seems to work just fine. Can build and serve apps, create apps, and reads and writes to Windows and Linux | 16275
 MLton | | 0 | | BSOD | 14393
 Mongo Client | | 4 | | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
@@ -119,6 +124,7 @@ ufw | | 0 | | Fails with an error about iptables | 15063.138
 useradd | | 4 | | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | | Seems to work correctly
 vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
+Visual Studio Code | code && code-insider | 2 | [Visual Studio Code](https://code.visualstudio.com) | Will install, but does not launch due to issues relating to Google Chrome with WSL. See [#758](https://github.com/Microsoft/BashOnWindows/issues/758) | 16275
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
 xfce4-terminal | | 5 | | Seems to work perfectly well, except for not being able to connect to DBUS | 14366
