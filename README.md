@@ -85,7 +85,7 @@ nmap | | 0 | | AF_Netsock options not implemented [#1349](https://github.com/Mic
 node.js | nodejs | 4 | | Seems to work fine. Runs the React VR hello world project perfectly. | 15063.138
 nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
-OCaml | | 3 | | Installed, needs more testing. Command used `sudo apt-get install ocaml ocaml-interp` | 14393
+OCaml | | 4 | | Works fine with Core, needs more testing. | 15063.540
 [OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
 ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation
