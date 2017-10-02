@@ -138,6 +138,7 @@ xfce4-terminal | | 5 | | Seems to work Perfectly | 15063
 startxfce4 (and all subsequent programs) | | 5 | | Everything seems to work, I didn't find anything wrong with it. | 15063
 xorg | | 4 | | Requires Configuration and an X server on Windows
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
+youtube-dl | | 5 | | Works Perfectly
 zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
 
 [the OpenCoarrays install instructions]: https://github.com/sourceryinstitute/opencoarrays/blob/master/INSTALL.md#windows
