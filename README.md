@@ -107,7 +107,7 @@ screen | | 4 | | Already installed. [Simple fix needed.](https://www.systutorial
 sed | | 4 | | didn't test all options, but everything I tested worked fine.
 SMLNJ | | 0 | | Installed. Will not start correctly. | 14393
 sqlite | | 4 | | [File locking is broken](https://github.com/Microsoft/BashOnWindows/issues/2395), which can lead to database corruption
-ssh | | 4 | | ssh -i works
+ssh | | 5 | | ssh works as expected
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
 SWI-Prolog | | 4 | | Installed without issue, needs more testing. See: [(Installing from PPA (Ubuntu Personal Package Archive))](http://www.swi-prolog.org/build/PPA.txt) | 14393
