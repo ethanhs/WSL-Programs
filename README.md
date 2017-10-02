@@ -44,7 +44,7 @@ Coq | | 4 | | Installed without issue, needs more testing. | 14393
 docker | | 0 | | doesn't run / says not installed
 Electron (and any apps based on it) | | 3 | [electron.atom.io](https://electron.atom.io/) | Some apps will install, but not run. Some will not install at all. Any app that uses Chrome 53 or later as it's backend **should** in theory work, no promises | 16275
 emacs | | 5 | | with latest WSL and Ubuntu Xenial works great in terminal mode and over X. | 16251 
-firefox |firefox| 3 | | Able to get working using firefox on X server. Sandbox eror unexpected multithreading found, this prevents using namespace sandboxing. Error GDK_BACKEND does not match available displays |14393
+firefox |firefox| 5 | | Runs, without reporting any errors whatsoever. | 15063
 fish | | 5 | | works fine
 fortune | | 5| | works fine
 fsharp | | 4 | | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
