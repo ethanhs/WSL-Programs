@@ -131,6 +131,7 @@ Visual Studio Code | code && code-insider | 2 | [Visual Studio Code](https://cod
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
 xfce4-terminal | | 5 | | Seems to work Perfectly | 15063
+startxfce4 (and all subsequent programs) | | 5 | | Everything seems to work, I didn't find anything wrong with it. | 15063
 xorg | | 4 | | Requires Configuration and an X server on Windows
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
