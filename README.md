@@ -136,13 +136,14 @@ useradd | | 4 | [man useradd](http://man7.org/linux/man-pages/man8/useradd.8.htm
 usermod | | 5 | [man usermod](http://man7.org/linux/man-pages/man8/usermod.8.html) | Seems to work correctly
 vim+ | | 3 | [vim/vim](https://github.com/vim/vim) | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
 Visual Studio Code | code && code-insider | 2 | [Visual Studio Code](https://code.visualstudio.com) | Will install, but does not launch due to issues relating to Google Chrome with WSL. See [#758](https://github.com/Microsoft/BashOnWindows/issues/758) | 16275
-vsftpd | | 3 | [security.appspot.com/vsftpd.html](https://security.appspot.com/vsftpd.html) | Not installed with apt
-wget | | 3 | [gnu.org/software/wget](https://www.gnu.org/software/wget/) | Simple commands work. Have only run basic commands
-xfce4-terminal | | 5 | [docs.xfce.org/apps/terminal/start](https://docs.xfce.org/apps/terminal/start) | Seems to work Perfectly | 15063
-startxfce4 (and all subsequent programs) | | 5 | [xfce.org](https://xfce.org/) | Everything seems to work, I didn't find anything wrong with it. | 15063
-xorg | | 4 | [x.org](https://www.x.org/) | Requires Configuration and an X server on Windows
-yum | | 0 | [yum.baseurl.org](http://yum.baseurl.org/) | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
-zsh | | 4 | [zsh.org](http://www.zsh.org/) | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
+vsftpd | | 3 | ? | Not installed with apt
+wget | | 3 | | Simple commands work. Have only run basic commands
+xfce4-terminal | | 5 | | Seems to work Perfectly | 15063
+startxfce4 (and all subsequent programs) | | 5 | | Everything seems to work, I didn't find anything wrong with it. | 15063
+xorg | | 4 | | Requires Configuration and an X server on Windows
+yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
+youtube-dl | | 5 | | Works Perfectly
+zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
 
 [the OpenCoarrays install instructions]: https://github.com/sourceryinstitute/opencoarrays/blob/master/INSTALL.md#windows
 [OpenCoarrays]: https://github.com/sourceryinstitute/opencoarrays
