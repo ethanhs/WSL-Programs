@@ -70,6 +70,8 @@ irssi | | 5 | [irssi.org](https://irssi.org/) | Seems to work flawlessly
 iwconfig | | 0 | [wiki.debian.org/iwconfig](https://wiki.debian.org/iwconfig) | Unable to Access Network Interfaces (Should be localhost for all connections)
 java 8 | | 2 | [oracle.com/java](http://oracle.com/java/) | Runs at minimum, seems to have some functionality at least
 java 7 | | 2 | [oracle.com/java](http://oracle.com/java/) | Seems to work well, if laggy.
+krita | krita | 0 | [krita.org](https://krita.org/en/) | Cannot connect to X server (tested with Xming). Further testing required.
+ltrace | ltrace | 5 | | Seems to work Flawlessly
 lua | lua5.2 | 3 | [Lua](http://www.lua.org/start.html) | Just tested with interpreter. Needs more tests | 15031 (Xenial)
 lynx | | 5 | [lynx.invisible-island.net](http://lynx.invisible-island.net/) | seems to work entirely
 mount | | 2 | [man mount](http://man7.org/linux/man-pages/man8/mount.8.html) | unable to mount iso/cd-rom files
@@ -117,6 +119,7 @@ SNMP Tools | snmp | 5 | [www.net-snmp.org](http://www.net-snmp.org) | Seems to w
 sqlite | | 4 | [sqlite.org](https://www.sqlite.org/) | [File locking is broken](https://github.com/Microsoft/BashOnWindows/issues/2395), which can lead to database corruption
 ssh | | 5 | [wikipedia - ssh](https://en.wikipedia.org/wiki/Secure_Shell) | ssh works as expected
 ssh-keygen | ssh | 4 | [man ssh-keygen](http://man7.org/linux/man-pages/man1/ssh-keygen.1.html) | -t rsa working
+strace | strace | 5 | | Seems to work Flawlessly
 sudo | | 5 | [wikipedia - sudo](https://en.wikipedia.org/wiki/Sudo) | appears to be working as expected
 SWI-Prolog | | 4 | [swi-prolog.org](http://www.swi-prolog.org/) | Installed without issue, needs more testing. See: [(Installing from PPA (Ubuntu Personal Package Archive))](http://www.swi-prolog.org/build/PPA.txt) | 14393
 swift | | 3 | [developer.apple.com/swift](https://developer.apple.com/swift/) | Everything except interactive shell works
