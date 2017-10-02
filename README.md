@@ -89,6 +89,7 @@ nuget | | 3 | | requires more testing
 npm | | 4 | | some packages fail due to permissions
 OCaml | | 4 | | Works fine with Core, needs more testing. | 15063.540
 [OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
+OpenRCT2 | | 0 | | Fails with errors to do with Sharing Memory with X, Possibly due to VcXsrv.
 ping | | 1 | | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
 pip+ | | 0 | | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation
 php5-cli | | 4 | | Working, needs more testing
