@@ -53,7 +53,7 @@ gazebo | | 3 | | Very laggy tested. Requries X11 server like VcXsrv and setting 
 gcc | build-essential | 4 | | more testing needed
 gedit | gedit | 5 | | Works just fine after X Server configuration. Will throw some Dbus errors, but doesn't seem to affect performance. Can read and write files to Linux and Windows | 16275
 ghc | ghc | 4 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) | Needs more tests | 15031
-gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Does throw some UI and Dbus errors, but performance doesn't seem affected. Can read and write files to both Linux and Windows | 16275
+gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Can read and write files to both Linux and Windows. Xming freezes, VcXsrv works fine | 16275
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 GNOME Web | epiphany-browser | 4 | [How-to](http://browsingthenet.blogspot.com/2016/11/how-to-run-epiphany-web-browser-in.html) | Works fine but the video is choppy | 14393
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
