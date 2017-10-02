@@ -71,6 +71,7 @@ iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for 
 java 8 | | 2 | | Runs at minimum, seems to have some functionality at least
 java 7 | | 2 | | Seems to work well, if laggy.
 lua | lua5.2 | 3 | [Lua](http://www.lua.org/start.html) | Just tested with interpreter. Needs more tests | 15031 (Xenial)
+ltrace | ltrace | 5 | | Seems to work Flawlessly
 lynx | | 5 | | seems to work entirely
 mount | | 2 | | unable to mount iso/cd-rom files
 Maude | | 4 | | Installed without issue, needs more testing
@@ -117,6 +118,7 @@ sqlite | | 4 | | [File locking is broken](https://github.com/Microsoft/BashOnWin
 ssh | | 5 | | ssh works as expected
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
+strace | strace | 5 | | Seems to work Flawlessly
 SWI-Prolog | | 4 | | Installed without issue, needs more testing. See: [(Installing from PPA (Ubuntu Personal Package Archive))](http://www.swi-prolog.org/build/PPA.txt) | 14393
 swift | | 3 | ? | Everything except interactive shell works
 tail | | 3 | | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"
