@@ -38,6 +38,7 @@ byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/to
 [c-ares](https://github.com/c-ares/c-ares) | libc-ares2 | 0 | | Does not resolve domains to ip addresses. | 14901.1000
 cargo | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
 curl | | 4 | | curl -sS tested
+chromium-bsu | | 0 | | Completely Fails to Launch
 composer | | 5 | | doesn't seem to have issues, but could use more test.
 cmake | | 4 | | Seems to work perfectly, though more testing needed.
 Coq | | 4 | | Installed without issue, needs more testing. | 14393
