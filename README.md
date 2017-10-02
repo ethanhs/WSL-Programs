@@ -130,7 +130,7 @@ vim+ | | 3 | | Will open and edit Window files it cannot create new files. Can c
 Visual Studio Code | code && code-insider | 2 | [Visual Studio Code](https://code.visualstudio.com) | Will install, but does not launch due to issues relating to Google Chrome with WSL. See [#758](https://github.com/Microsoft/BashOnWindows/issues/758) | 16275
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
-xfce4-terminal | | 5 | | Seems to work perfectly well, except for not being able to connect to DBUS | 14366
+xfce4-terminal | | 5 | | Seems to work Perfectly | 15063
 xorg | | 4 | | Requires Configuration and an X server on Windows
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
