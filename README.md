@@ -65,8 +65,8 @@ htop | | 5 | |  Works as expected, though only lists processes running under WSL
 i3 | | 4 | [i3wm.org](http://i3wm.org/) | Works fine under VcXsrv Server 1.19.2.0 without `-multiwindow` command line option. Added `export DISPLAY=:0` to `.bashrc` | 15063.138
 ifconfig | | 4 | | Seems to work fine | 15063.138
 ip | | 4 |  | Seems to work fine | 15063.138
-ircii | | 1 |  | terminal handling is broken, once the window fills, it only uses the bottom 3 lines
-irssi | | 5 |  | seems to work flawlessly
+ircii | | 5 |  | Seems to work Flawlessly
+irssi | | 5 |  | Seems to work flawlessly
 iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 java | | 2 | | 1.8 runs at minimum, seems to have some functionality at least
 lua | lua5.2 | 3 | [Lua](http://www.lua.org/start.html) | Just tested with interpreter. Needs more tests | 15031 (Xenial)
