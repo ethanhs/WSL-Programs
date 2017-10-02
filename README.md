@@ -39,6 +39,7 @@ byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/to
 cargo | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
 curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
+cmake | | 4 | | Seems to work perfectly, though more testing needed.
 Coq | | 4 | | Installed without issue, needs more testing. | 14393
 docker | | 0 | | doesn't run / says not installed
 Electron (and any apps based on it) | | 3 | [electron.atom.io](https://electron.atom.io/) | Some apps will install, but not run. Some will not install at all. Any app that uses Chrome 53 or later as it's backend **should** in theory work, no promises | 16275
