@@ -68,7 +68,8 @@ ip | | 4 |  | Seems to work fine | 15063.138
 ircii | | 5 |  | Seems to work Flawlessly
 irssi | | 5 |  | Seems to work flawlessly
 iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
-java | | 2 | | 1.8 runs at minimum, seems to have some functionality at least
+java 8 | | 2 | | Runs at minimum, seems to have some functionality at least
+java 7 | | 2 | | Seems to work well, if laggy.
 lua | lua5.2 | 3 | [Lua](http://www.lua.org/start.html) | Just tested with interpreter. Needs more tests | 15031 (Xenial)
 lynx | | 5 | | seems to work entirely
 mount | | 2 | | unable to mount iso/cd-rom files
