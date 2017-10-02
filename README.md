@@ -70,6 +70,7 @@ irssi | | 5 |  | Seems to work flawlessly
 iwconfig | | 0 | | Unable to Access Network Interfaces (Should be localhost for all connections)
 java 8 | | 2 | | Runs at minimum, seems to have some functionality at least
 java 7 | | 2 | | Seems to work well, if laggy.
+krita | krita | 0 | | Cannot connect to X server (tested with Xming). Further testing required.
 ltrace | ltrace | 5 | | Seems to work Flawlessly
 lua | lua5.2 | 3 | [Lua](http://www.lua.org/start.html) | Just tested with interpreter. Needs more tests | 15031 (Xenial)
 lynx | | 5 | | seems to work entirely
