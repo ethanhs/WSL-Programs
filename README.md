@@ -57,7 +57,7 @@ gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Does throw 
 git | | 4 | | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
 GNOME Web | epiphany-browser | 4 | [How-to](http://browsingthenet.blogspot.com/2016/11/how-to-run-epiphany-web-browser-in.html) | Works fine but the video is choppy | 14393
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
-gparted | | 2 | | Window opens and can be interacted with, but it can't find any devices and the close button doesn't work so you have to Ctrl + C in bash. Requires X server, only tested after [dbus fix](https://www.reddit.com/r/Windows10/comments/4rsmzp/bash_on_windows_getting_dbus_and_x_server_working/) with [VcXserv](https://sourceforge.net/projects/vcxsrv/). | 14393.187
+gparted | | 4 | | Window opens and can be interacted with, but it can't find any devices.
 grep | | 4 | | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 haxe | | 5 | [Haxe Foundation PPA](http://haxe.org/download/linux) | Compiles programs correctly, haxelib works fine too
 heroku | | 5 | [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) | Installs and works as expected, tested app listing, logs, setting config
