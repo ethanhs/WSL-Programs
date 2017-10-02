@@ -78,6 +78,8 @@ Meteor | | 5 | [meteor.com](https://meteor.com) | Seems to work just fine. Can b
 MLton | | 0 | | BSOD | 14393
 Mongo Client | | 4 | | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
+Minecraft | | 0 | | Crashes during boot with an error from OpenAL - [Known Issue](https://github.com/Microsoft/BashOnWindows/issues/1006)
+Minecraft Launcher | | 3 | | Seems to work correctly, but is incredibly laggy.
 mysql | | 4 | | Seems to work flawlessly | 15063.138
 mtr | | 0 | | doesn't run
 nano | | 4 | | Functions and displays correctly | 15063.138
