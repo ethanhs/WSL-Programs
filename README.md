@@ -39,6 +39,7 @@ byobu | | 3 | | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/to
 cargo | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
 curl | | 4 | | curl -sS tested
 composer | | 5 | | doesn't seem to have issues, but could use more test.
+cmake | | 4 | | Seems to work perfectly, though more testing needed.
 Coq | | 4 | | Installed without issue, needs more testing. | 14393
 docker | | 0 | | doesn't run / says not installed
 Electron (and any apps based on it) | | 3 | [electron.atom.io](https://electron.atom.io/) | Some apps will install, but not run. Some will not install at all. Any app that uses Chrome 53 or later as it's backend **should** in theory work, no promises | 16275
@@ -59,7 +60,6 @@ gparted | | 2 | | Window opens and can be interacted with, but it can't find any
 grep | | 4 | | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 haxe | | 5 | [Haxe Foundation PPA](http://haxe.org/download/linux) | Compiles programs correctly, haxelib works fine too
 heroku | | 5 | [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) | Installs and works as expected, tested app listing, logs, setting config
-htop | | 5 | |  Works as expected, though only lists processes running under WSL, not under Windows. CPU and Memory usage stats are accurate.
 i3 | | 4 | [i3wm.org](http://i3wm.org/) | Works fine under VcXsrv Server 1.19.2.0 without `-multiwindow` command line option. Added `export DISPLAY=:0` to `.bashrc` | 15063.138
 ifconfig | | 4 | | Seems to work fine | 15063.138
 ip | | 4 |  | Seems to work fine | 15063.138
@@ -108,7 +108,7 @@ screen | | 4 | | Already installed. [Simple fix needed.](https://www.systutorial
 sed | | 4 | | didn't test all options, but everything I tested worked fine.
 SMLNJ | | 0 | | Installed. Will not start correctly. | 14393
 sqlite | | 4 | | [File locking is broken](https://github.com/Microsoft/BashOnWindows/issues/2395), which can lead to database corruption
-ssh | | 5 | | ssh works as expected
+ssh | | 4 | | ssh -i works
 ssh-keygen | ssh | 4 | | -t rsa working
 sudo | | 5 | | appears to be working as expected
 SWI-Prolog | | 4 | | Installed without issue, needs more testing. See: [(Installing from PPA (Ubuntu Personal Package Archive))](http://www.swi-prolog.org/build/PPA.txt) | 14393
