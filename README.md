@@ -92,7 +92,8 @@ nginx+ | | 4 | [ngix.com](https://www.nginx.com/) | Can't bind to IPv6 | 15063.1
 nmap | | 0 | [nmap.org](https://nmap.org/) | AF_Netsock options not implemented [#1349](https://github.com/Microsoft/BashOnWindows/issues/1349)
 [node.js](https://nodejs.org/en/) | nodejs | 4 | [nodejs.org](https://nodejs.org/en/) | Seems to work fine. Runs the React VR hello world project perfectly. | 15063.138
 nuget | | 3 | [nuget.org](https://www.nuget.org/) | requires more testing
-npm | | 4 | [npmjs.com](https://www.npmjs.com/) | some packages fail due to permissions
+npm | | 4 | [npmjs.com](https://www.npmjs.com/) | some packages fail due to permissions - Default version is VERY old.
+nvm | | 5 | [nvm](https://github.com/creationix/nvm) | Script to install newer versions of NPM and NodeJS.
 OCaml | | 4 | [ocaml.org](https://ocaml.org/) | Works fine with Core, needs more testing. | 15063.540
 [OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
 OpenRCT2 | | 0 | [openrtc2.org](https://openrct2.org/) | Fails with errors to do with Sharing Memory with X, Possibly due to VcXsrv.
