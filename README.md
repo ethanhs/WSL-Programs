@@ -78,6 +78,7 @@ mount | | 2 | [man mount](http://man7.org/linux/man-pages/man8/mount.8.html) | u
 Maude | | 4 | [maude.cs.uiuc.edu](http://maude.cs.uiuc.edu/) | Installed without issue, needs more testing
 make | | 3 | [gnu.org/software/make](https://www.gnu.org/software/make/) | basic scripts working, needs more extensive testing. Tabbing for commands gets broken pipe
 Meteor | | 5 | [meteor.com](https://meteor.com) | Seems to work just fine. Can build and serve apps, create apps, and reads and writes to Windows and Linux | 16275
+Metasploit | | 4 | [metasploit.com](https://metasploit.com) | Seems to work as expected.
 MLton | | 0 | [mlton.org](http://mlton.org/) | BSOD | 14393
 Mongo Client | | 4 | [docs.mongodb.com](https://docs.mongodb.com/getting-started/shell/client/) | Works well connecting to mongod windows service
 Mono | mono-complete | 4 | [mono-project.com](http://www.mono-project.com/) | Supported ([more info](https://github.com/mono/website/issues/199)). Instructions added to official documentation. Use 4.2 for now or 4.6 when released (4.4 [has issues](https://bugzilla.xamarin.com/show_bug.cgi?id=42169))|
