@@ -140,6 +140,7 @@ vim+ | | 3 | [vim/vim](https://github.com/vim/vim) | Will open and edit Window f
 Visual Studio Code | code && code-insider | 2 | [Visual Studio Code](https://code.visualstudio.com) | Will install, but does not launch due to issues relating to Google Chrome with WSL. See: [#758](https://github.com/Microsoft/BashOnWindows/issues/758) Update: [#2293](https://github.com/Microsoft/BashOnWindows/issues/2293) | 16275
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
+wireshark | | 5 | [wireshark](https://www.wireshark.org) | Works just as expected
 xfce4-terminal | | 5 | | Seems to work Perfectly | 15063
 startxfce4 (and all subsequent programs) | | 5 | | Everything seems to work, I didn't find anything wrong with it. | 15063
 xorg | | 4 | | Requires Configuration and an X server on Windows
