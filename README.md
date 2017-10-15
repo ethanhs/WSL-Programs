@@ -119,6 +119,7 @@ sed | | 4 | [gnu.org/software/sed](https://www.gnu.org/software/sed/) | didn't t
 SMLNJ | | 0 | [smlnj.org](http://www.smlnj.org/) | Installed. Will not start correctly. | 14393
 SNMP Tools | snmp | 5 | [www.net-snmp.org](http://www.net-snmp.org) | Seems to work fine | 15063.138
 sqlite | | 4 | [sqlite.org](https://www.sqlite.org/) | [File locking is broken](https://github.com/Microsoft/BashOnWindows/issues/2395), which can lead to database corruption
+sqlmap | |  5 | [sqlmap](http://sqlmap.org) | Works very well
 ssh | | 5 | [wikipedia - ssh](https://en.wikipedia.org/wiki/Secure_Shell) | ssh works as expected
 ssh-keygen | ssh | 4 | [man ssh-keygen](http://man7.org/linux/man-pages/man1/ssh-keygen.1.html) | -t rsa working
 strace | strace | 5 | | Seems to work Flawlessly
