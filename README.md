@@ -70,6 +70,7 @@ irssi | | 5 | [irssi.org](https://irssi.org/) | Seems to work flawlessly
 iwconfig | | 0 | [wiki.debian.org/iwconfig](https://wiki.debian.org/iwconfig) | Unable to Access Network Interfaces (Should be localhost for all connections)
 java 8 | | 2 | [oracle.com/java](http://oracle.com/java/) | Runs at minimum, seems to have some functionality at least
 java 7 | | 2 | [oracle.com/java](http://oracle.com/java/) | Seems to work well, if laggy.
+kakoune | | 5 | [kakoune.org](http://kakoune.org) | Works great, needs to be built from source
 krita | krita | 0 | [krita.org](https://krita.org/en/) | Cannot connect to X server (tested with Xming). Further testing required.
 ltrace | ltrace | 5 | | Seems to work Flawlessly
 lua | lua5.2 | 3 | [Lua](http://www.lua.org/start.html) | Just tested with interpreter. Needs more tests | 15031 (Xenial)
