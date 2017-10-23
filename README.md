@@ -97,6 +97,7 @@ nuget | | 3 | [nuget.org](https://www.nuget.org/) | requires more testing
 npm | | 4 | [npmjs.com](https://www.npmjs.com/) | some packages fail due to permissions - Default version is VERY old.
 nvm | | 5 | [nvm](https://github.com/creationix/nvm) | Script to install newer versions of NPM and NodeJS.
 OCaml | | 4 | [ocaml.org](https://ocaml.org/) | Works fine with Core, needs more testing. | 15063.540
+octave | | 3 | [GNU Octave](https://www.gnu.org/software/octave/) | GUI opens with X11, command line calculations are fine, plotting has libgl errors
 [OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
 OpenRCT2 | | 0 | [openrtc2.org](https://openrct2.org/) | Fails with errors to do with Sharing Memory with X, Possibly due to VcXsrv.
 ping | | 1 | [man ping](http://man7.org/linux/man-pages/man8/ping.8.html) | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
