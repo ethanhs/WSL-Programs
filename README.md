@@ -27,7 +27,7 @@ Program Name  | apt name | Functionality rating (0-5) | website | Notes  | Windo
 ADB | | 2 | [developer.android.com](https://developer.android.com/studio/command-line/adb.html) | Installs; see [this image](https://cloud.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | [httpd.apache.org](https://httpd.apache.org/) | Must use a loopback for networking, buggy
-apt | | 5 | [wiki.debian.org/Apt](https://wiki.debian.org/Apt) | Works fine | 15063.138
+apt | | 5 | [wiki.debian.org/Apt](https://wiki.debian.org/Apt) | Works fine | 16299.19
 apt-fast | | 3 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Simple commands work. Needs more testing | 15063.138
 archey | | 3 | [djmelik/archey](https://github.com/djmelik/archey)| Works for the most part, but displays disk usage incorrectly | 15063.138
 aria2c | aria2 | 3 | [aria2.github.com](https://aria2.github.io/) | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
@@ -50,7 +50,7 @@ fish | | 5 | [fish.sh](https://fish.sh/) | works fine
 fortune | | 5 | [wikipedia - Fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) | works fine
 fsharp | | 4 | [fsharp.org](http://fsharp.org/) | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
 gazebo | | 3 | [gazebosim.org](http://gazebosim.org/) | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
-gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | more testing needed
+gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | Run as expected, more testing needed | 16299.19
 gedit | gedit | 5 | [wiki.gnome.org/Apps/Gedit](https://wiki.gnome.org/Apps/Gedit) | Works just fine after X Server configuration. Will throw some Dbus errors, but doesn't seem to affect performance. Can read and write files to Linux and Windows | 16275
 ghc | ghc | 4 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) [haskell.org/ghc](https://www.haskell.org/ghc/) | Needs more tests | 15031
 gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Can read and write files to both Linux and Windows. Xming freezes, VcXsrv works fine | 16275
@@ -61,7 +61,7 @@ gparted | | 4 | [gparted.org](https://gparted.org/) | Window opens and can be in
 grep | | 4 | [wikipedia - grep](https://en.wikipedia.org/wiki/Grep) | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 haxe | | 5 | [Haxe Foundation PPA](http://haxe.org/download/linux) | Compiles programs correctly, haxelib works fine too
 heroku | | 5 | [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) | Installs and works as expected, tested app listing, logs, setting config
-htop | | 5 | [hisham.hm/htop](http://hisham.hm/htop/) |  Works as expected, though only lists processes running under WSL, not under Windows. CPU and Memory usage stats are accurate.
+htop | | 5 | [hisham.hm/htop](http://hisham.hm/htop/) |  Works as expected, though only lists processes running under WSL, not under Windows. CPU and Memory usage stats are accurate. | 16299.19
 i3 | | 4 | [i3wm.org](http://i3wm.org/) | Works fine under VcXsrv Server 1.19.2.0 without `-multiwindow` command line option. Added `export DISPLAY=:0` to `.bashrc` | 15063.138
 ifconfig | | 4 | [wikipedia - ifconfig](https://en.wikipedia.org/wiki/Ifconfig) | Seems to work fine | 15063.138
 ip | | 4 | [man ip](http://man7.org/linux/man-pages/man8/ip.8.html) | Seems to work fine | 15063.138
@@ -87,7 +87,7 @@ Minecraft | | 0 | [mincraft.net](https://minecraft.net) | Crashes during boot wi
 Minecraft Launcher | | 3 | [minecraft.net](https://minecraft.net) | Seems to work correctly, but is incredibly laggy.
 mysql | | 4 | [mysql.com](https://www.mysql.com/) | Seems to work flawlessly | 15063.138
 mtr | | 0 | [wikipedia - mtr](https://en.wikipedia.org/wiki/MTR_(software)) | doesn't run
-nano | | 4 | [nano-editor.org](https://www.nano-editor.org/) | Functions and displays correctly | 15063.138
+nano | | 4 | [nano-editor.org](https://www.nano-editor.org/) | Functions and displays correctly | 16299.19
 nasm | | 4 | [nasm.us](http://www.nasm.us/) | more testing needed
 nethack | | 4 | [nethack.org](https://www.nethack.org/) | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
 nginx+ | | 4 | [ngix.com](https://www.nginx.com/) | Can't bind to IPv6 | 15063.138
@@ -124,7 +124,7 @@ sqlite | | 4 | [sqlite.org](https://www.sqlite.org/) | [File locking is broken](
 ssh | | 5 | [wikipedia - ssh](https://en.wikipedia.org/wiki/Secure_Shell) | ssh works as expected
 ssh-keygen | ssh | 4 | [man ssh-keygen](http://man7.org/linux/man-pages/man1/ssh-keygen.1.html) | -t rsa working
 strace | strace | 5 | | Seems to work Flawlessly
-sudo | | 5 | [wikipedia - sudo](https://en.wikipedia.org/wiki/Sudo) | appears to be working as expected
+sudo | | 5 | [wikipedia - sudo](https://en.wikipedia.org/wiki/Sudo) | appears to be working as expected | 16299.19
 SWI-Prolog | | 4 | [swi-prolog.org](http://www.swi-prolog.org/) | Installed without issue, needs more testing. See: [(Installing from PPA (Ubuntu Personal Package Archive))](http://www.swi-prolog.org/build/PPA.txt) | 14393
 swift | | 3 | [developer.apple.com/swift](https://developer.apple.com/swift/) | Everything except interactive shell works
 tail | | 3 | [man tail](http://man7.org/linux/man-pages/man1/tail.1.html) | Will tail files, but 'follow' (-f) reports "tail: unrecognized file system type 0x53464846"
