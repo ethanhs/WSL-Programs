@@ -146,6 +146,7 @@ wireshark | | 5 | [wireshark](https://www.wireshark.org) | Works just as expecte
 xfce4-terminal | | 5 | | Seems to work Perfectly | 15063
 startxfce4 (and all subsequent programs) | | 5 | | Everything seems to work, I didn't find anything wrong with it. | 15063
 xorg | | 4 | | Requires Configuration and an X server on Windows
+yarn | | 3 | [yarnpkg.com](https://yarnpkg.com/lang/en/) | Works mostly fine. Sometimes really slow due to Windows Defender (whitelisting helps). Global package installations are not always working properly. [wsl performance problems](https://github.com/Microsoft/WSL/issues/1932) [yarn issue](https://github.com/yarnpkg/yarn/issues/990)
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 youtube-dl | | 5 | | Works Perfectly
 zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
