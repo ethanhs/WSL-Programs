@@ -54,7 +54,7 @@ gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | Runs as expect
 gedit | gedit | 5 | [wiki.gnome.org/Apps/Gedit](https://wiki.gnome.org/Apps/Gedit) | Works just fine after X Server configuration. Will throw some Dbus errors, but doesn't seem to affect performance. Can read and write files to Linux and Windows | 16275
 ghc | ghc | 4 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) [haskell.org/ghc](https://www.haskell.org/ghc/) | Needs more tests | 15031
 gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Can read and write files to both Linux and Windows. Xming freezes, VcXsrv works fine | 16275
-git | | 4 | [git-scm.com](https://git-scm.com/) | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors
+git | | 4 | [git-scm.com](https://git-scm.com/) | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors | 16299.19
 GNOME Web | epiphany-browser | 4 | [How-to](http://browsingthenet.blogspot.com/2016/11/how-to-run-epiphany-web-browser-in.html) | Works fine but the video is choppy | 14393
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
 gparted | | 4 | [gparted.org](https://gparted.org/) | Window opens and can be interacted with, but it can't find any devices.
