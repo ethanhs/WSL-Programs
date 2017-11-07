@@ -50,7 +50,7 @@ fish | | 5 | [fish.sh](https://fish.sh/) | works fine
 fortune | | 5 | [wikipedia - Fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) | works fine
 fsharp | | 4 | [fsharp.org](http://fsharp.org/) | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
 gazebo | | 3 | [gazebosim.org](http://gazebosim.org/) | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
-gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | Run as expected, more testing needed | 16299.19
+gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | Runs as expected, more testing needed | 16299.19
 gedit | gedit | 5 | [wiki.gnome.org/Apps/Gedit](https://wiki.gnome.org/Apps/Gedit) | Works just fine after X Server configuration. Will throw some Dbus errors, but doesn't seem to affect performance. Can read and write files to Linux and Windows | 16275
 ghc | ghc | 4 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) [haskell.org/ghc](https://www.haskell.org/ghc/) | Needs more tests | 15031
 gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Can read and write files to both Linux and Windows. Xming freezes, VcXsrv works fine | 16275
