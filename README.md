@@ -33,7 +33,7 @@ archey | | 3 | [djmelik/archey](https://github.com/djmelik/archey)| Works for th
 aria2c | aria2 | 3 | [aria2.github.com](https://aria2.github.io/) | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
 atom | atom | 0 | [Atom.io](https://atom.io) | Does not install, causes `apt` and `dpkg` to lock up trying to install | 16275
 bash+ | | 3 | [gnu.org/software/bash](https://www.gnu.org/software/bash/) | Most functionality exists but there are problems with scripts
-blackfire | | 0 | [blackfire.io](https://blackfire.io/) | Error while trying to listen for connections on 'unix:///var/run/blackfire/agent.sock'
+blackfire | blackfire-agent | 5 | [blackfire.io](https://blackfire.io/) | | 16299.15
 byobu | | 3 | [byobu.co](http://byobu.co/) | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
 c-ares | libc-ares2 | 0 | [c-ares/c-ares](https://github.com/c-ares/c-ares) | Does not resolve domains to ip addresses. | 14901.1000
 cargo | | 4 | [rust-lang/cargo](https://github.com/rust-lang/cargo) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
