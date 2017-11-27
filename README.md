@@ -44,7 +44,7 @@ cmake | | 4 | [cmake.org](https://cmake.org/) | Seems to work perfectly, though 
 Coq | | 4 | [coq.inria.fr](https://coq.inria.fr/) | Installed without issue, needs more testing. | 14393
 docker | | 0 | [docker.com](https://www.docker.com/) | doesn't run / says not installed
 Electron (and any apps based on it) | | 3 | [electron.atom.io](https://electron.atom.io/) | Some apps will install, but not run. Some will not install at all. Any app that uses Chrome 53 or later as it's backend **should** in theory work, no promises | 16275
-emacs | | 5 | [gnu.org/software/emacs](https://www.gnu.org/software/emacs/) | with latest WSL and Ubuntu Xenial works great in terminal mode and over X. | 16251 
+emacs | | 5 | [gnu.org/software/emacs](https://www.gnu.org/software/emacs/) | with latest WSL and Ubuntu Xenial works great in terminal mode and over X. | 16251
 firefox |firefox| 5 |  [mozilla.org/firefox](http://mozilla.com/firefox) | Runs, without reporting any errors whatsoever. | 15063
 fish | | 5 | [fish.sh](https://fish.sh/) | works fine
 fortune | | 5 | [wikipedia - Fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) | works fine
@@ -111,6 +111,7 @@ R | r-base  | 4 |  [r-project.org](https://www.r-project.org/) | devtools, doPar
 rbenv | | 4 | [rbenv/rbenv](https://github.com/rbenv/rbenv) | works for the most part, but permissions of folders are wrong after installing (world writable), spawning warnings when running e.g. Rubygems | 14366
 reboot | | 0 | [man reboot](http://man7.org/linux/man-pages/man2/reboot.2.html) | Unable to shutdown system.
 redis | | 4 | [Redis](https://redis.io/download) | Able to start server and interact with built-client. Did part of tutorial and worked great. | 15031 (Xenial)
+rmw | | 5 | [rmw](https://github.com/andy5995/rmw) | Remove to waste. Safely remove files to a trash folder from the cli.
 rsync | | 4 | [rsync.samba.org](https://rsync.samba.org/) | works with ssh tunneling and with same file system. Needs more testing
 ruby | | 4 | [ruby-lang.org](https://www.ruby-lang.org/) | works for Sinatra and Rails development using C extension gems for the most part, but `rails new testapp` works with `WeBrick` (the default), but hangs with `thin` | 14986
 rustc | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Can compile basic programs. Needs testing with more complex programs | 14393.67
