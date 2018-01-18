@@ -27,6 +27,7 @@ Program Name  | apt name | Functionality rating (0-5) | website | Notes  | Windo
 ADB | | 2 | [developer.android.com](https://developer.android.com/studio/command-line/adb.html) | Installs; see [this image](https://cloud.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | [httpd.apache.org](https://httpd.apache.org/) | Must use a loopback for networking, buggy
+Apache SINGA |  | 4 | [singa.apache.org](https://singa.apache.org/) | Only CPU version is supported. 
 apt | | 5 | [wiki.debian.org/Apt](https://wiki.debian.org/Apt) | Works fine | 16299.19
 apt-fast | | 3 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Simple commands work. Needs more testing | 15063.138
 archey | | 3 | [djmelik/archey](https://github.com/djmelik/archey)| Works for the most part, but displays disk usage incorrectly | 15063.138
@@ -70,6 +71,7 @@ irssi | | 5 | [irssi.org](https://irssi.org/) | Seems to work flawlessly
 iwconfig | | 0 | [wiki.debian.org/iwconfig](https://wiki.debian.org/iwconfig) | Unable to Access Network Interfaces (Should be localhost for all connections)
 java 8 | | 2 | [oracle.com/java](http://oracle.com/java/) | Runs at minimum, seems to have some functionality at least
 java 7 | | 2 | [oracle.com/java](http://oracle.com/java/) | Seems to work well, if laggy.
+Jupyter Notebook | | 5 | [jupyter.org](http://jupyter.org/) | Seems to work well. Requires a browser such as FireFox.
 kakoune | | 5 | [kakoune.org](http://kakoune.org) | Works great, needs to be built from source
 krita | krita | 0 | [krita.org](https://krita.org/en/) | Cannot connect to X server (tested with Xming). Further testing required.
 ltrace | ltrace | 5 | | Seems to work Flawlessly
