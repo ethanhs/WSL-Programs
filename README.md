@@ -35,6 +35,7 @@ aria2c | aria2 | 3 | [aria2.github.com](https://aria2.github.io/) | Does not res
 atom | atom | 0 | [Atom.io](https://atom.io) | Does not install, causes `apt` and `dpkg` to lock up trying to install | 16275
 bash+ | | 3 | [gnu.org/software/bash](https://www.gnu.org/software/bash/) | Most functionality exists but there are problems with scripts
 blackfire | blackfire-agent | 5 | [blackfire.io](https://blackfire.io/) | | 16299.15
+boost | | 5 | [boost](https://http://www.boost.org) | | 16299.125
 byobu | | 3 | [byobu.co](http://byobu.co/) | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
 c-ares | libc-ares2 | 0 | [c-ares/c-ares](https://github.com/c-ares/c-ares) | Does not resolve domains to ip addresses. | 14901.1000
 cargo | | 4 | [rust-lang/cargo](https://github.com/rust-lang/cargo) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
@@ -62,6 +63,7 @@ gparted | | 4 | [gparted.org](https://gparted.org/) | Window opens and can be in
 grep | | 4 | [wikipedia - grep](https://en.wikipedia.org/wiki/Grep) | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 haxe | | 5 | [Haxe Foundation PPA](http://haxe.org/download/linux) | Compiles programs correctly, haxelib works fine too
 heroku | | 5 | [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) | Installs and works as expected, tested app listing, logs, setting config
+hpx | | 5 | [ste||ar-hpx](https://stellar-group.org) | Installs and works as expected | 16299.125
 htop | | 5 | [hisham.hm/htop](http://hisham.hm/htop/) |  Works as expected, though only lists processes running under WSL, not under Windows. CPU and Memory usage stats are accurate. | 16299.19
 i3 | | 4 | [i3wm.org](http://i3wm.org/) | Works fine under VcXsrv Server 1.19.2.0 without `-multiwindow` command line option. Added `export DISPLAY=:0` to `.bashrc` | 15063.138
 ifconfig | | 4 | [wikipedia - ifconfig](https://en.wikipedia.org/wiki/Ifconfig) | Seems to work fine | 15063.138
