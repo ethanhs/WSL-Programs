@@ -43,7 +43,7 @@ chromium-bsu | | 0 | [chromium-bsu.sourceforge.net](http://chromium-bsu.sourcefo
 composer | | 5 | [getcomposer.org](https://getcomposer.org/) | doesn't seem to have issues, but could use more test.
 cmake | | 4 | [cmake.org](https://cmake.org/) | Seems to work perfectly, though more testing needed.
 Coq | | 4 | [coq.inria.fr](https://coq.inria.fr/) | Installed without issue, needs more testing. | 14393
-docker | | 0 | [docker.com](https://www.docker.com/) | doesn't run / says not installed
+docker | | 3 | [docker.com](https://www.docker.com/) | Using Docker for Windows it's possible to get the client working in WSL using the instructions [here](https://raesene.github.io/blog/2018/03/29/WSL-And-Docker/)
 Electron (and any apps based on it) | | 3 | [electron.atom.io](https://electron.atom.io/) | Some apps will install, but not run. Some will not install at all. Any app that uses Chrome 53 or later as it's backend **should** in theory work, no promises | 16275
 emacs | | 5 | [gnu.org/software/emacs](https://www.gnu.org/software/emacs/) | with latest WSL and Ubuntu Xenial works great in terminal mode and over X. | 16251
 firefox |firefox| 5 |  [mozilla.org/firefox](http://mozilla.com/firefox) | Runs, without reporting any errors whatsoever. | 15063
