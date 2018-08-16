@@ -34,7 +34,7 @@ archey | | 3 | [djmelik/archey](https://github.com/djmelik/archey)| Works for th
 aria2c | aria2 | 3 | [aria2.github.com](https://aria2.github.io/) | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
 arp | arp | 0 | | /proc/net/arp: No such file or directory
 arp-scan | arp-scan | 0 | https://github.com/royhills/arp-scan | link_open: Address family not supported by protocol
-atom | atom | 0 | [Atom.io](https://atom.io) | Does not install, causes `apt` and `dpkg` to lock up trying to install | 16275
+atom | atom | 0 | [Atom.io](https://atom.io) | Installs, launches process (visible in `ps -ax`) but does not display a window - tested using VcXsvr | 16299.551
 bash+ | | 3 | [gnu.org/software/bash](https://www.gnu.org/software/bash/) | Most functionality exists but there are problems with scripts
 blackfire | blackfire-agent | 5 | [blackfire.io](https://blackfire.io/) | | 16299.15
 byobu | | 3 | [byobu.co](http://byobu.co/) | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
@@ -136,6 +136,7 @@ tail | | 3 | [man tail](http://man7.org/linux/man-pages/man1/tail.1.html) | Will
 tcc | | 3 | [bellard.org/tcc](https://bellard.org/tcc/) | tcc run and scripted "#!/usr/bin/tcc -run" files work correctly
 telnet | | 4 | [wikipedia - telnet](https://en.wikipedia.org/wiki/Telnet) | Further testing required
 tensorflow | | 4 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | See [Scott Hanselman's post](http://www.hanselman.com/blog/PlayingWithTensorFlowOnWindows.aspx)
+terminator | | 4 | | Multi-terminal emulator. Tested using VcXsvr. | 16299.551
 tesseract-ocr | | 4 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | No problems with command line usage
 texlive | | 5 | [tug.org/texlive](https://www.tug.org/texlive/) | No problems so far | 14366
 tmux | | 4 | [tmux/tmux](https://github.com/tmux/tmux) | Works well for the most part, mouse mode doesn't seem to work  | 14366
