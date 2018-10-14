@@ -35,6 +35,7 @@ aria2c | aria2 | 3 | [aria2.github.com](https://aria2.github.io/) | Does not res
 arp | arp | 0 | | /proc/net/arp: No such file or directory
 arp-scan | arp-scan | 0 | https://github.com/royhills/arp-scan | link_open: Address family not supported by protocol
 atom | atom | 0 | [Atom.io](https://atom.io) | Does not install, causes `apt` and `dpkg` to lock up trying to install | 16275
+AWeather | aweather | 0 | http://pileus.org/aweather/ | Crashes on launch due to OpenGL error. | 17764.55
 bash+ | | 3 | [gnu.org/software/bash](https://www.gnu.org/software/bash/) | Most functionality exists but there are problems with scripts
 blackfire | blackfire-agent | 5 | [blackfire.io](https://blackfire.io/) | | 16299.15
 byobu | | 3 | [byobu.co](http://byobu.co/) | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
