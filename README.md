@@ -104,7 +104,7 @@ OCaml | | 4 | [ocaml.org](https://ocaml.org/) | Works fine with Core, needs more
 octave | | 3 | [GNU Octave](https://www.gnu.org/software/octave/) | GUI opens with X11, command line calculations are fine, plotting has libgl errors
 [OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
 OpenRCT2 | | 0 | [openrtc2.org](https://openrct2.org/) | Fails with errors to do with Sharing Memory with X, Possibly due to VcXsrv.
-ping | | 1 | [man ping](http://man7.org/linux/man-pages/man8/ping.8.html) | Works if run as admin (not root), otherwise fails with `ping: icmp open socket: Socket type not supported`
+ping | | 5 | [man ping](http://man7.org/linux/man-pages/man8/ping.8.html) | Works fine
 pip+ | | 0 | [pip.pypa.io](https://pip.pypa.io/en/stable/) | **DO NOT INSTALL** with `--fix-missing`. Breaks `apt`. See documentation
 php5-cli | | 4 | [php.net/manual](http://php.net/manual/en/features.commandline.php) | Working, needs more testing
 php7.0| | 4 | [php.net](http://php.net/) | Installed without issue, needs more testing
