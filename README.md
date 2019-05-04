@@ -174,7 +174,7 @@ yarn | | 3 | [yarnpkg.com](https://yarnpkg.com/lang/en/) | Works mostly fine. So
 YaST | yast2 | 4 | | No icons, otherwise OK | 17134.68
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 youtube-dl | | 5 | | Works Perfectly
-Zipper | gnustep-zipper | 5 | | 17134.68
+Zipper | gnustep-zipper | 5 | | | 17134.68
 zsh | | 4 | | Simple commands work after getting listed WSL build, also checked oh-my-zsh | 14393
 
 [the OpenCoarrays install instructions]: https://github.com/sourceryinstitute/opencoarrays/blob/master/INSTALL.md#windows
