@@ -60,7 +60,7 @@ gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Can read an
 git | | 4 | [git-scm.com](https://git-scm.com/) | requires more testing, Basics work (clone, pull, push, fetch commit). Diff has some errors | 16299.19
 gnokii | gnokii | 0 | | useless without USB | 17134.68
 GNOME Web | epiphany-browser | 4 | [How-to](http://browsingthenet.blogspot.com/2016/11/how-to-run-epiphany-web-browser-in.html) | Works fine but the video is choppy | 14393
-GNUStep Terminal | | 3 | | displays bold as tiny | 17134.68
+GNUStep Terminal | gnustep-terminal | 3 | | displays bold as tiny | 17134.68
 gphoto2 | gphoto2 | 0 | | useless without USB | 17134.68
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
 gparted | | 4 | [gparted.org](https://gparted.org/) | Window opens and can be interacted with, but it can't find any devices.
