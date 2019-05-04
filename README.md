@@ -100,6 +100,7 @@ mysql | | 4 | [mysql.com](https://www.mysql.com/) | Seems to work flawlessly | 1
 mtr | | 0 | [wikipedia - mtr](https://en.wikipedia.org/wiki/MTR_(software)) | doesn't run
 nano | | 4 | [nano-editor.org](https://www.nano-editor.org/) | Functions and displays correctly | 16299.19
 nasm | | 4 | [nasm.us](http://www.nasm.us/) | more testing needed
+netcat | netcat-openbsd | 5 | | works as expected
 nethack | | 4 | [nethack.org](https://www.nethack.org/) | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
 nginx+ | | 4 | [ngix.com](https://www.nginx.com/) | Can't bind to IPv6 | 15063.138
 nmap | | 0 | [nmap.org](https://nmap.org/) | AF_Netsock options not implemented [#1349](https://github.com/Microsoft/BashOnWindows/issues/1349)
@@ -165,10 +166,10 @@ WindowMaker | | 5 | | default window manager for Xrdp | 17134.68
 xfce4-terminal | | 5 | | Seems to work Perfectly | 15063
 startxfce4 (and all subsequent programs) | | 5 | | Everything seems to work, I didn't find anything wrong with it. | 15063
 xorg | | 4 | | As Xrdp or Xvnc | 17134.68
-xrdp | | 3 | | due to failing systemd, sesman must be started by hand; the default init script does not work | | 17134.68
-xterm | | 4 | | insufficiently tested | | 17134.68
+xrdp | xrdp | 3 | | due to failing systemd, sesman must be started by hand; the default init script does not work | | 17134.68
+xterm | xterm | 4 | | insufficiently tested | | 17134.68
 yarn | | 3 | [yarnpkg.com](https://yarnpkg.com/lang/en/) | Works mostly fine. Sometimes really slow due to Windows Defender (whitelisting helps). Global package installations are not always working properly. [wsl performance problems](https://github.com/Microsoft/WSL/issues/1932) [yarn issue](https://github.com/yarnpkg/yarn/issues/990)
-YaST | | 4 | | No icons, otherwise OK | 17134.68
+YaST | yast2 | 4 | | No icons, otherwise OK | 17134.68
 yum | | 0 | | doesn't work at all. will segfault on `yum`, hangs indefinitely with `yum install`
 youtube-dl | | 5 | | Works Perfectly
 Zipper | gnustep-zipper | 5 | | 17134.68
