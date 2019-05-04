@@ -100,7 +100,7 @@ mysql | | 4 | [mysql.com](https://www.mysql.com/) | Seems to work flawlessly | 1
 mtr | | 0 | [wikipedia - mtr](https://en.wikipedia.org/wiki/MTR_(software)) | doesn't run
 nano | | 4 | [nano-editor.org](https://www.nano-editor.org/) | Functions and displays correctly | 16299.19
 nasm | | 4 | [nasm.us](http://www.nasm.us/) | more testing needed
-netcat | netcat-openbsd | 5 | | works as expected
+netcat | netcat-openbsd | 5 | | works as expected | 17134.68
 nethack | | 4 | [nethack.org](https://www.nethack.org/) | Need to run it from the /usr/games directory with "./nethack" and the default config it runs has numpad turned off so you have to use the unintuitive: y k u h l b j n
 nginx+ | | 4 | [ngix.com](https://www.nginx.com/) | Can't bind to IPv6 | 15063.138
 nmap | | 0 | [nmap.org](https://nmap.org/) | AF_Netsock options not implemented [#1349](https://github.com/Microsoft/BashOnWindows/issues/1349)
