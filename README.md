@@ -34,7 +34,7 @@ archey | | 3 | [djmelik/archey](https://github.com/djmelik/archey)| Works for th
 aria2c | aria2 | 3 | [aria2.github.com](https://aria2.github.io/) | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
 arp | arp | 0 | | /proc/net/arp: No such file or directory
 arp-scan | arp-scan | 0 | https://github.com/royhills/arp-scan | link_open: Address family not supported by protocol
-atom | atom | 0 | [Atom.io](https://atom.io) | Installs, launches process (visible in `ps -ax`) but does not display a window - tested using VcXsvr | 16299.551
+AWeather | aweather | 0 | http://pileus.org/aweather/ | Crashes on launch due to OpenGL error. | 17764.55
 bash+ | | 3 | [gnu.org/software/bash](https://www.gnu.org/software/bash/) | Most functionality exists but there are problems with scripts
 blackfire | blackfire-agent | 5 | [blackfire.io](https://blackfire.io/) | | 16299.15
 boost | | 5 | [boost](https://http://www.boost.org) | | 16299.125
