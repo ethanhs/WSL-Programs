@@ -127,6 +127,7 @@ Sage Math | | 4 | [http://www.sagemath.org/](http://www.sagemath.org/) | Able to
 scp | | 5 | [man scp](http://man7.org/linux/man-pages/man1/scp.1.html) | works for both remote to local and local to remote transfers.
 screen | | 4 | [gnu.org/software/screen](https://www.gnu.org/software/screen/) | Already installed. [Simple fix needed.](https://www.systutorials.com/qa/1639/screen-reporting-cannot-directory-screen-permission-denied?show=1640#a1640) | 15063 (Xenial)
 sed | | 4 | [gnu.org/software/sed](https://www.gnu.org/software/sed/) | didn't test all options, but everything I tested worked fine.
+singularity | | 0 | [singularity](https://singularity.lbl.gov) | doesn't run / can not make mountspace
 SMLNJ | | 0 | [smlnj.org](http://www.smlnj.org/) | Installed. Will not start correctly. | 14393
 SNMP Tools | snmp | 5 | [www.net-snmp.org](http://www.net-snmp.org) | Seems to work fine | 15063.138
 sqlite | | 4 | [sqlite.org](https://www.sqlite.org/) | [File locking is broken](https://github.com/Microsoft/BashOnWindows/issues/2395), which can lead to database corruption
