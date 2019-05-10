@@ -34,9 +34,10 @@ archey | | 3 | [djmelik/archey](https://github.com/djmelik/archey)| Works for th
 aria2c | aria2 | 3 | [aria2.github.com](https://aria2.github.io/) | Does not resolve domains, must use IP addresses. Possibly c-ares related | 14901.1000
 arp | arp | 0 | | /proc/net/arp: No such file or directory
 arp-scan | arp-scan | 0 | https://github.com/royhills/arp-scan | link_open: Address family not supported by protocol
-atom | atom | 0 | [Atom.io](https://atom.io) | Does not install, causes `apt` and `dpkg` to lock up trying to install | 16275
+AWeather | aweather | 0 | http://pileus.org/aweather/ | Crashes on launch due to OpenGL error. | 17764.55
 bash+ | | 3 | [gnu.org/software/bash](https://www.gnu.org/software/bash/) | Most functionality exists but there are problems with scripts
 blackfire | blackfire-agent | 5 | [blackfire.io](https://blackfire.io/) | | 16299.15
+boost | | 5 | [boost](https://http://www.boost.org) | | 16299.125
 byobu | | 3 | [byobu.co](http://byobu.co/) | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
 c-ares | libc-ares2 | 0 | [c-ares/c-ares](https://github.com/c-ares/c-ares) | Does not resolve domains to ip addresses. | 14901.1000
 cargo | | 4 | [rust-lang/cargo](https://github.com/rust-lang/cargo) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
@@ -64,6 +65,7 @@ gnokii | gnokii | 0 | | useless without USB | 17134.68
 GNOME Web | epiphany-browser | 4 | [How-to](http://browsingthenet.blogspot.com/2016/11/how-to-run-epiphany-web-browser-in.html) | Works fine but the video is choppy | 14393
 GNUStep Terminal | gnustep-terminal | 3 | | displays bold as tiny | 17134.68
 gphoto2 | gphoto2 | 0 | | useless without USB | 17134.68
+gnuplot | gnuplot | 5 | [gnuplot](http://www.gnuplot.info/) | Fitting data and plotting/displaying graphs of functions working fine. The qt terminal throws the following error the first time it plots: `QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-<username>' Warning: slow font initializationgnuplot> qt_processTermEvent received a GE_fontprops event. This should not have happened`, but works fine. Requires a x11 server to display plots. | 17134.228
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
 gparted | | 4 | [gparted.org](https://gparted.org/) | Window opens and can be interacted with, but it can't find any devices.
 grep | | 4 | [wikipedia - grep](https://en.wikipedia.org/wiki/Grep) | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
@@ -71,6 +73,7 @@ GSpdf | gnustep-gspdf | 5 | | | 17134.68
 GWorkspace | gnustep-gworkspace | 3 | | problems with fonts and icons, manageable | 17134.68
 haxe | | 5 | [Haxe Foundation PPA](http://haxe.org/download/linux) | Compiles programs correctly, haxelib works fine too
 heroku | | 5 | [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) | Installs and works as expected, tested app listing, logs, setting config
+hpx | | 5 | [ste||ar-hpx](https://stellar-group.org) | Installs and works as expected | 16299.125
 htop | | 5 | [hisham.hm/htop](http://hisham.hm/htop/) |  Works as expected, though only lists processes running under WSL, not under Windows. CPU and Memory usage stats are accurate. | 16299.19
 i3 | | 4 | [i3wm.org](http://i3wm.org/) | Works fine under VcXsrv Server 1.19.2.0 without `-multiwindow` command line option. Added `export DISPLAY=:0` to `.bashrc` | 15063.138
 ifconfig | | 4 | [wikipedia - ifconfig](https://en.wikipedia.org/wiki/Ifconfig) | Seems to work fine | 15063.138
@@ -113,6 +116,7 @@ nvm | | 5 | [nvm](https://github.com/creationix/nvm) | Script to install newer v
 OCaml | | 4 | [ocaml.org](https://ocaml.org/) | Works fine with Core, needs more testing. | 15063.540
 octave | | 3 | [GNU Octave](https://www.gnu.org/software/octave/) | GUI opens with X11, command line calculations are fine, plotting has libgl errors
 [OpenCoarrays] | | 4 | [opencoarrays.org] | Installed from source but needs more testing. See [the OpenCoarrays install instructions] for more details |
+OpenFOAM | openfoam5 | 5 | [openfoam.org](https://openfoam.org/download/windows-10/) | Works well and comes with Paraview, which has working X11 GUI |
 OpenRCT2 | | 0 | [openrtc2.org](https://openrct2.org/) | Fails with errors to do with Sharing Memory with X, Possibly due to VcXsrv.
 osc | osc | 5 | | no problems | 17134.68
 ping | | 5 | [man ping](http://man7.org/linux/man-pages/man8/ping.8.html) | Works fine
@@ -137,6 +141,7 @@ scp | | 5 | [man scp](http://man7.org/linux/man-pages/man1/scp.1.html) | works f
 screen | | 4 | [gnu.org/software/screen](https://www.gnu.org/software/screen/) | Already installed. [Simple fix needed.](https://www.systutorials.com/qa/1639/screen-reporting-cannot-directory-screen-permission-denied?show=1640#a1640) | 15063 (Xenial)
 seamonkey | | 4 | | see firefox | 17134.68
 sed | | 4 | [gnu.org/software/sed](https://www.gnu.org/software/sed/) | didn't test all options, but everything I tested worked fine.
+singularity | | 0 | [singularity](https://singularity.lbl.gov) | doesn't run / can not make mountspace
 SMLNJ | | 0 | [smlnj.org](http://www.smlnj.org/) | Installed. Will not start correctly. | 14393
 SNMP Tools | snmp | 5 | [www.net-snmp.org](http://www.net-snmp.org) | Seems to work fine | 15063.138
 sqlite | | 4 | [sqlite.org](https://www.sqlite.org/) | [File locking is broken](https://github.com/Microsoft/BashOnWindows/issues/2395), which can lead to database corruption
@@ -152,6 +157,7 @@ tea | | 4 | http://semiletov.org | desktop icon missing | 17134.68
 tcc | | 3 | [bellard.org/tcc](https://bellard.org/tcc/) | tcc run and scripted "#!/usr/bin/tcc -run" files work correctly
 telnet | | 4 | [wikipedia - telnet](https://en.wikipedia.org/wiki/Telnet) | Further testing required
 tensorflow | | 4 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | See [Scott Hanselman's post](http://www.hanselman.com/blog/PlayingWithTensorFlowOnWindows.aspx)
+terminator | | 4 | | Multi-terminal emulator. Tested using VcXsvr. | 16299.551
 tesseract-ocr | | 4 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | No problems with command line usage
 texlive | | 5 | [tug.org/texlive](https://www.tug.org/texlive/) | No problems so far | 14366
 tmux | | 4 | [tmux/tmux](https://github.com/tmux/tmux) | Works well for the most part, mouse mode doesn't seem to work  | 14366
