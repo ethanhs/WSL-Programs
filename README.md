@@ -68,7 +68,7 @@ gphoto2 | gphoto2 | 0 | | useless without USB | 17134.68
 gnuplot | gnuplot | 5 | [gnuplot](http://www.gnuplot.info/) | Fitting data and plotting/displaying graphs of functions working fine. The qt terminal throws the following error the first time it plots: `QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-<username>' Warning: slow font initializationgnuplot> qt_processTermEvent received a GE_fontprops event. This should not have happened`, but works fine. Requires a x11 server to display plots. | 17134.228
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
 gparted | | 4 | [gparted.org](https://gparted.org/) | Window opens and can be interacted with, but it can't find any devices.
-The GNU Privacy Guard | gpg | 4 | [gnupg.org](https://gnupg.org/) | See [#130](issues/130) | 17763.503
+The GNU Privacy Guard | gpg | 4 | [gnupg.org](https://gnupg.org/) | See [#130](/ethanhs/WSL-Programs/issues/130) | 17763.503
 grep | | 4 | [wikipedia - grep](https://en.wikipedia.org/wiki/Grep) | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 GSpdf | gnustep-gspdf | 5 | | | 17134.68
 GWorkspace | gnustep-gworkspace | 3 | | problems with fonts and icons, manageable | 17134.68
