@@ -27,7 +27,7 @@ Program Name  | apt name | Functionality rating (0-5) | website | Notes  | Windo
 ADB | | 2 | [developer.android.com](https://developer.android.com/studio/command-line/adb.html) | Installs; see [this image](https://cloud.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | [httpd.apache.org](https://httpd.apache.org/) | Must use a loopback for networking, buggy
-Apache SINGA |  | 4 | [singa.apache.org](https://singa.apache.org/) | Only CPU version is supported. 
+Apache SINGA |  | 4 | [singa.apache.org](https://singa.apache.org/) | Only CPU version is supported.
 apt | | 5 | [wiki.debian.org/Apt](https://wiki.debian.org/Apt) | Works fine | 16299.19
 apt-fast | | 3 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Simple commands work. Needs more testing | 15063.138
 archey | | 3 | [djmelik/archey](https://github.com/djmelik/archey)| Works for the most part, but displays disk usage incorrectly | 15063.138
@@ -68,7 +68,7 @@ gphoto2 | gphoto2 | 0 | | useless without USB | 17134.68
 gnuplot | gnuplot | 5 | [gnuplot](http://www.gnuplot.info/) | Fitting data and plotting/displaying graphs of functions working fine. The qt terminal throws the following error the first time it plots: `QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-<username>' Warning: slow font initializationgnuplot> qt_processTermEvent received a GE_fontprops event. This should not have happened`, but works fine. Requires a x11 server to display plots. | 17134.228
 golang | golang-go | 3 | [Golang](https://golang.org/dl/) | golang-go gets 1.6 which is not the latest version. Needs more testing | 15031 (Xenial)
 gparted | | 4 | [gparted.org](https://gparted.org/) | Window opens and can be interacted with, but it can't find any devices.
-The GNU Privacy Guard | gpg | 4 | [gnupg.org](https://gnupg.org/) | See [#130](/ethanhs/WSL-Programs/issues/130) | 17763.503
+The GNU Privacy Guard | gpg | 4 | [gnupg.org](https://gnupg.org/) | See [#130](https://github.com/ethanhs/WSL-Programs/issues/130) | 17763.503
 grep | | 4 | [wikipedia - grep](https://en.wikipedia.org/wiki/Grep) | __WARNING: PASSWORD MAY BE SHOWN IN PLAINTEXT__;requires more testing see [this issue](https://github.com/Microsoft/BashOnWindows/issues/450) for more.
 GSpdf | gnustep-gspdf | 5 | | | 17134.68
 GWorkspace | gnustep-gworkspace | 3 | | problems with fonts and icons, manageable | 17134.68
@@ -85,7 +85,7 @@ iwconfig | | 0 | [wiki.debian.org/iwconfig](https://wiki.debian.org/iwconfig) | 
 java 8 | | 2 | [oracle.com/java](http://oracle.com/java/) | Runs at minimum, seems to have some functionality at least
 java 7 | | 2 | [oracle.com/java](http://oracle.com/java/) | Seems to work well, if laggy.
 Jupyter Notebook | | 5 | [jupyter.org](http://jupyter.org/) | Seems to work well. Requires a browser such as FireFox.
-k3b | k3b | 1 | | limited use without hardware access | 17134.68 
+k3b | k3b | 1 | | limited use without hardware access | 17134.68
 kakoune | | 5 | [kakoune.org](http://kakoune.org) | Works great, needs to be built from source
 kio_camera | kio-extras5 | 0 | | useless without USB | 17134.68
 krita | krita | 0 | [krita.org](https://krita.org/en/) | Cannot connect to X server (tested with Xming). Further testing required.
@@ -172,7 +172,7 @@ vncserver | | 4 | | no sound (did not try too hard) | 17134.68
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
 wireshark | | 5 | [wireshark](https://www.wireshark.org) | Works just as expected
-WindowMaker | | 5 | | default window manager for Xrdp | 17134.68 
+WindowMaker | | 5 | | default window manager for Xrdp | 17134.68
 xfce4-terminal | | 5 | | Seems to work Perfectly | 15063
 startxfce4 (and all subsequent programs) | | 5 | | Everything seems to work, I didn't find anything wrong with it. | 15063
 xorg | | 4 | | As Xrdp or Xvnc | 17134.68
