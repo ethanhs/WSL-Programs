@@ -167,7 +167,7 @@ ufw | | 0 | [help.ubuntu.com/community/UFW](https://help.ubuntu.com/community/UF
 useradd | | 4 | [man useradd](http://man7.org/linux/man-pages/man8/useradd.8.html) | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | [man usermod](http://man7.org/linux/man-pages/man8/usermod.8.html) | Seems to work correctly
 vim+ | | 3 | [vim/vim](https://github.com/vim/vim) | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
-Visual Studio Code | code && code-insider | 2 | [Visual Studio Code](https://code.visualstudio.com) | Will install, but does not launch due to issues relating to Google Chrome with WSL. See: [#758](https://github.com/Microsoft/BashOnWindows/issues/758) Update: [#2293](https://github.com/Microsoft/BashOnWindows/issues/2293) | 16275
+Visual Studio Code | code && code-insider | 5 | [Visual Studio Code](https://code.visualstudio.com) | Will install, but does not launch due to issues relating to Google Chrome with WSL. See: [#758](https://github.com/Microsoft/BashOnWindows/issues/758) Update: [#2760](https://github.com/microsoft/WSL/issues/2760). Redundant, due to the release of VSCode Remote Development (https://code.visualstudio.com/docs/remote/remote-overview) | 16275
 vncserver | | 4 | | no sound (did not try too hard) | 17134.68
 vsftpd | | 3 | ? | Not installed with apt
 wget | | 3 | | Simple commands work. Have only run basic commands
