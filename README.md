@@ -164,6 +164,7 @@ texlive | | 5 | [tug.org/texlive](https://www.tug.org/texlive/) | No problems so
 tmux | | 4 | [tmux/tmux](https://github.com/tmux/tmux) | Works well for the most part, mouse mode doesn't seem to work  | 14366
 torproject | tor | 5 | [torproject.org](https://www.torproject.org/) | Tor is a free software that prevents people from learning your location or browsing habits by letting you communicate anonymously on the Internet. | 14393
 ufw | | 0 | [help.ubuntu.com/community/UFW](https://help.ubuntu.com/community/UFW) | Fails with an error about iptables | 15063.138
+upx | | 1 | [https://upx.github.io/](https://upx.github.io/) | Can't run upx within WSL, but can run ELF binaries compressed with upx, see https://github.com/upx/upx/issues/201 | 18362.113
 useradd | | 4 | [man useradd](http://man7.org/linux/man-pages/man8/useradd.8.html) | Users can be added but /etc/skel profile logout and bashrc files but no default directories
 usermod | | 5 | [man usermod](http://man7.org/linux/man-pages/man8/usermod.8.html) | Seems to work correctly
 vim+ | | 3 | [vim/vim](https://github.com/vim/vim) | Will open and edit Window files it cannot create new files. Can create new linux files. Issues with colorschemes. Plugins don't work. Panes, buffers, and registers appear to be working correctly.
