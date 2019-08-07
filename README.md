@@ -133,7 +133,7 @@ R | r-base  | 4 |  [r-project.org](https://www.r-project.org/) | devtools, doPar
 rbenv | | 4 | [rbenv/rbenv](https://github.com/rbenv/rbenv) | works for the most part, but permissions of folders are wrong after installing (world writable), spawning warnings when running e.g. Rubygems | 14366
 reboot | | 0 | [man reboot](http://man7.org/linux/man-pages/man2/reboot.2.html) | Unable to shutdown system.
 redis | | 4 | [Redis](https://redis.io/download) | Able to start server and interact with built-client. Did part of tutorial and worked great. | 15031 (Xenial)
-rmw | | 5 | [rmw](https://github.com/andy5995/rmw) | Remove to waste. Safely remove files to a trash folder from the cli.
+rmw | | 5 | [rmw](https://remove-to-waste.info/) | Remove to waste. Safely remove files to a trash folder from the cli.
 rsync | | 4 | [rsync.samba.org](https://rsync.samba.org/) | works with ssh tunneling and with same file system. Needs more testing
 ruby | | 4 | [ruby-lang.org](https://www.ruby-lang.org/) | works for Sinatra and Rails development using C extension gems for the most part, but `rails new testapp` works with `WeBrick` (the default), but hangs with `thin` | 14986
 rustc | | 4 | [rust-lang.org](https://www.rust-lang.org/downloads.html) | Can compile basic programs. Needs testing with more complex programs | 14393.67
