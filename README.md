@@ -37,7 +37,7 @@ arp-scan | arp-scan | 0 | https://github.com/royhills/arp-scan | link_open: Addr
 AWeather | aweather | 0 | http://pileus.org/aweather/ | Crashes on launch due to OpenGL error. | 17764.55
 bash+ | | 3 | [gnu.org/software/bash](https://www.gnu.org/software/bash/) | Most functionality exists but there are problems with scripts
 blackfire | blackfire-agent | 5 | [blackfire.io](https://blackfire.io/) | | 16299.15
-boost | | 5 | [boost](https://http://www.boost.org) | | 16299.125
+boost | | 5 | [boost](https://www.boost.org/) | | 16299.125
 byobu | | 3 | [byobu.co](http://byobu.co/) | Need to toggle the byobu charmap (run `/usr/lib/byobu/include/toggle-utf8` or `export BYOBU_CHARMAP=x ; . ~/.bashrc`). Status bar occasionally disappears. | 14901.1000
 c-ares | libc-ares2 | 0 | [c-ares/c-ares](https://github.com/c-ares/c-ares) | Does not resolve domains to ip addresses. | 14901.1000
 cargo | | 4 | [rust-lang/cargo](https://github.com/rust-lang/cargo) | Correctly recognizes and downloads dependencies on basic projects. Needs testing with larger projects. | 14393.67
